@@ -62,15 +62,46 @@
 
 // Find the sum of even numbers till n (n will be entered by user )
 
-let n = prompt("Enter the number");
+// let n = prompt("Enter the number");
 
-function sumEvenNumbers(n) {
-    let sum = 0;
-    for (let i = 2; i <= n; i += 2) {
-        sum += i;
-    }
-    return sum;
-}
-console.log(sumEvenNumbers(n));
+// function sumEvenNumbers(n) {
+//     let sum = 0;
+//     for (let i = 2; i <= n; i += 2) {
+//         sum += i;
+//     }
+//     return sum;
+// }
+// console.log(sumEvenNumbers(n));
+
+// Find all even numbers up to(n= 10) : 2, 4, 6, 8, 10 = 30
+
+// function evenNo() {
+//     let n = prompt("Enter No", "10");
+//     let numTerms = n / 2;
+//     let sum = numTerms * (2 + n) / 2;
+//     console.log(sum);
+// }
+
+// evenNo();
 
 
+// Find the sum of Odd numbers till n
+
+// function sumOddNumbers() {
+//     let n = prompt("Enter no", "10");
+//     let answer = n * n;
+//     return answer;
+// }
+// console.log(sumOddNumbers());
+
+
+// Print multiplication table of n
+
+// function table() {
+//     let n = prompt("Enter Table", "2");
+//     for (let i = 1; i <= 10; i++) {
+//         console.log(`${n} x ${i} = ${n * i}`);
+//     }
+// }
+
+// table();
