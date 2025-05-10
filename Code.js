@@ -1,4 +1,4 @@
-// DAY 1
+// DAY 1 
 
 // Q1 Print numbers from 1 to 10
 
