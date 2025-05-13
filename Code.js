@@ -82,7 +82,7 @@
 //     console.log(sum);
 // }
 
-// evenNo();
+// evenNo();  
 
 
 // Find the sum of Odd numbers till n
@@ -105,5 +105,12 @@
 // }
 
 // table();
+
+const largestDigit = (num) => {
+    if (num < 10) return num;
+    return Math.max(num % 10, largestDigit(Math.floor(num / 10)));
+};
+
+console.log(largestDigit(5890129)); // Output: 9
 
 
