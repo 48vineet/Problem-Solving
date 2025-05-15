@@ -82,7 +82,7 @@
 //     console.log(sum);
 // }
 
-// evenNo();  
+// evenNo();
 
 
 // Find the sum of Odd numbers till n
@@ -106,11 +106,36 @@
 
 // table();
 
-const largestDigit = (num) => {
-    if (num < 10) return num;
-    return Math.max(num % 10, largestDigit(Math.floor(num / 10)));
-};
+// const largestDigit = (num) => {
+//     if (num < 10) return num;
+//     return Math.max(num % 10, largestDigit(Math.floor(num / 10)));
+// };
 
-console.log(largestDigit(5890129)); // Output: 9
+// console.log(largestDigit(5890129)); // Output: 9
+
+// - Sum of digits in a number
+// Example:
+// Question: Find the sum of the digits in the number 753.
+// Solution: (7 + 5 + 3 = 15)
+
+// function sumOfDigits(num) {
+//     return num.toString().split('').reduce((sum, digit) => sum + Number(digit), 0);
+// }
+
+// console.log(sumOfDigits(753)); // Output: 15
+
+
+// - Find the largest among three numbers
+// Example:
+// Question: Find the largest number among 18, 42, and 27.
+// Solution: The largest number is 42.
+
+// function findLargest(a, b, c) {
+//     return Math.max(a, b, c);
+// }
+
+// console.log(findLargest(18, 42, 27)); // Output: 42
+
+
 
 
