@@ -142,3 +142,41 @@
 // console.log(findLargest(18, 42, 27)); // Output: 42
   // 
 
+
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+ FILE *fp;
+ char fileName[100];
+ char data[100];
+ // Prompt the user for the file name
+ printf("Enter the file name to create: ");
+ scanf("%s", fileName);
+ // Open the file in write mode
+ fp = fopen(fileName, "w");
+ if (fp == NULL) {
+ printf("Error: Unable to create the file.\n");
+ return 1;
+ }
+ printf("File created successfully.\n");
+ // Prompt the user for data to write to the file
+ printf("Enter the data to write into the file (max 100 characters): ");
+ getchar(); // Consume the newline left by scanf
+ fgets(data, sizeof(data), stdin);
+ // Write the user input into the file
+ fputs(data, fp);
+ printf("Data written successfully.\n");
+ fp = fopen(fileName, "r");
+ if (fp == NULL) {
+printf("Error: Unable to read the file.\n");
+ return 1;
+ }
+ while(fp!=EOF)
+ {
+ printf("\n %s",data);
+ return 1;
+ }
+ // Close the file
+ fclose(fp);
+ return 0;
+}
