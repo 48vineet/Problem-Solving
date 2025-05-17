@@ -216,3 +216,83 @@ int main() {
  return 0;
 }
 
+practical 7
+
+#include <stdio.h>
+int main ()
+{
+ int a [1000],i,n,min,max;
+ printf("Enter size of the array : ");
+ scanf("%d",&n);
+ printf("Enter elements in array : ");
+ for(i=0; i<n; i++)
+ {
+ scanf("%d",&a[i]);
+ }
+ min=max=a[0];
+ for(i=1; i<n; i++)
+ {
+ if(min>a[i])
+ min=a[i];
+ if(max<a[i])
+ max=a[i];
+ }
+ printf("minimum of array is : %d",min);
+ printf("\nmaximum of array is : %d",max);
+ return 0;
+}
+ 
+
+practical 9
+
+#include <stdio.h> 
+struct Student 
+{
+char name[50];
+int roll_number;
+float marks;
+}; // Define a structure to represent a student record 
+void display details(struct Student student)
+{
+ printf("Student Details:\n");
+ printf("Name: %s\n", student.name);
+ printf("Roll Number: %d\n", student.roll_number);
+ printf("Marks: %.2f\n", student.marks);
+} // Function to display student details
+int main() {
+ struct Student student; // Creating a student record
+ printf("Enter name: "); // Input student details
+ scanf("%49s", student.name);
+ printf("Enter roll number: ");
+ scanf("%d", &student.roll_number);
+ printf("Enter marks: ");
+ scanf("%f", &student.marks);
+ display_details(student); // Displaying the student details
+ return 0;
+}
+
+practical 8
+
+
+#include <stdio.h>
+int main() 
+{
+int a, b, temp;
+int *ptr1, *ptr2;
+printf("Enter the value of a and b: ");
+scanf("%d %d", &a, &b);
+printf("\nBefore swapping a = %d and b = %d", a, b);
+// Assign the memory address of a and b to *ptr1 and *ptr2
+ptr1 = &a;
+ptr2 = &b;
+// Swap the values a and b
+temp = *ptr1;
+*ptr1 = *ptr2;
+*ptr2 = temp;
+printf("\nAfter swapping a = %d and b = %d", a, b);
+return 0;
+}
+
+
+
+
