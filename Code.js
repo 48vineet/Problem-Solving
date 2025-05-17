@@ -142,6 +142,7 @@
 // console.log(findLargest(18, 42, 27)); // Output: 42
   // 
 
+practical 10
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -180,3 +181,38 @@ printf("Error: Unable to read the file.\n");
  fclose(fp);
  return 0;
 }
+
+practical 6
+
+#include <stdio.h>
+int main() {
+ int n, i;
+ long long first = 0, second = 1, next;
+ // Input the number of terms
+ printf("Enter the number of terms: ");
+ scanf("%d", &n);
+ // Validate input
+ if (n <= 0) {
+ printf("Please enter a positive integer.\n");
+ return 1;
+ }
+ printf("Fibonacci series: ");
+ // Loop to generate Fibonacci series
+ for (i = 1; i <= n; i++) {
+ if (i == 1) {
+ printf("%lld ", first); // Print the first term
+ continue;
+ }
+ if (i == 2) {
+ printf("%lld ", second); // Print the second term
+ continue;
+ }
+ next = first + second; // Calculate next term
+ first = second; // Update first
+ second = next; // Update second
+ printf("%lld ", next); // Print the next term
+ }
+ printf("\n");
+ return 0;
+}
+
