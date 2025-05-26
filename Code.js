@@ -290,7 +290,7 @@ temp = *ptr1;
 *ptr2 = temp;
 printf("\nAfter swapping a = %d and b = %d", a, b);
 return 0;
-}
+}. 
 
 
 
