@@ -1,7 +1,7 @@
 ye// DAY 1
 // Q1 Print numbers fr om 1 tob 10
 
-// for (let i = 0; i <= 10; i += 2) {
+// for (let i = 0; i <= 10; i += 2) { 
 //     console.log(i);
 // }
   
@@ -141,134 +141,6 @@ ye// DAY 1
 // console.log(findLargest(18, 42, 27)); // Output: 42
   // 
 
-practical 10
-
-#include <stdio.h>
-#include <stdlib.h>
-int main() {
- FILE *fp;
- char fileName[100];
- char data[100];
- // Prompt the user for the file name
- printf("Enter the file name to create: ");
- scanf("%s", fileName);
- // Open the file in write mode
- fp = fopen(fileName, "w");
- if (fp == NULL) {
- printf("Error: Unable to create the file.\n");
- return 1;
- }
- printf("File created successfully.\n");
- // Prompt the user for data to write to the file
- printf("Enter the data to write into the file (max 100 characters): ");
- getchar(); // Consume the newline left by scanf
- fgets(data, sizeof(data), stdin);
- // Write the user input into the file
- fputs(data, fp);
- printf("Data written successfully.\n");
- fp = fopen(fileName, "r");
- if (fp == NULL) {
-printf("Error: Unable to read the file.\n");
- return 1;
- }
- while(fp!=EOF)
- {
- printf("\n %s",data);
- return 1;
- }
- // Close the file
- fclose(fp);
- return 0;
-}
-
-practical 6
-
-#include <stdio.h>
-int main() {
- int n, i;
- long long first = 0, second = 1, next;
- // Input the number of terms
- printf("Enter the number of terms: ");
- scanf("%d", &n);
- // Validate input
- if (n <= 0) {
- printf("Please enter a positive integer.\n");
- return 1;
- }
- printf("Fibonacci series: ");
- // Loop to generate Fibonacci series
- for (i = 1; i <= n; i++) {
- if (i == 1) {
- printf("%lld ", first); // Print the first term
- continue;
- }
- if (i == 2) {
- printf("%lld ", second); // Print the second term
- continue;
- }
- next = first + second; // Calculate next term
- first = second; // Update first
- second = next; // Update second
- printf("%lld ", next); // Print the next term
- }
- printf("\n");
- return 0;
-}
-
-practical 7
-
-#include <stdio.h>
-int main ()
-{
- int a [1000],i,n,min,max;
- printf("Enter size of the array : ");
- scanf("%d",&n);
- printf("Enter elements in array : ");
- for(i=0; i<n; i++)
- {
- scanf("%d",&a[i]);
- }
- min=max=a[0];
- for(i=1; i<n; i++)
- {
- if(min>a[i])
- min=a[i];
- if(max<a[i])
- max=a[i];
- }
- printf("minimum of array is : %d",min);
- printf("\nmaximum of array is : %d",max);
- return 0;
-}
- 
-
-practical 9
-
-#include <stdio.h> 
-struct Student 
-{
-char name[50];
-int roll_number;
-float marks;
-}; // Define a structure to represent a student record 
-void display details(struct Student student)
-{
- printf("Student Details:\n");
- printf("Name: %s\n", student.name);
- printf("Roll Number: %d\n", student.roll_number);
- printf("Marks: %.2f\n", student.marks);
-} // Function to display student details
-int main() {
- struct Student student; // Creating a student record
- printf("Enter name: "); // Input student details
- scanf("%49s", student.name);
- printf("Enter roll number: ");
- scanf("%d", &student.roll_number);
- printf("Enter marks: ");
- scanf("%f", &student.marks);
- display_details(student); // Displaying the student details
- return 0;
-}
 
 
 
