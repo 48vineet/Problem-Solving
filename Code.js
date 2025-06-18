@@ -1,6 +1,6 @@
 // DAY 1
 // Q1 Print numbers fr om 1 tob 10
-
+ 
 // for (let i = 0; i <= 10; i += 2) { 
 //     console.log(i);
 // }
