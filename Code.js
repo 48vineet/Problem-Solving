@@ -17,7 +17,7 @@
 // }
  
 // DATY 2
- v
+ 
 // 1)Sum of numbers from 1 to n. 
 // function sumOfNumbers(n) {
 //     return n * (n + 1) / 2;
