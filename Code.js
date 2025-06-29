@@ -50,7 +50,7 @@
 //4)Check if a number is even or odd
 
 // function oddAndEven(num) {
-//     if (num % 2 == 0) {
+//     if (num % 2 == 0) { 
 //         console.log(num, "is even number");
 //     } else {
 //         console.log(num, "is ood number");
