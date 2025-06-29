@@ -24,7 +24,7 @@
 // }
 // console.log(sumOfNumbers(30));
 
-
+ 
 // 2) Find the largest of two numbers
 // function largestAndSmallest(a, b) {
 //     if (a > b) {
