@@ -15,7 +15,7 @@
 // for (let i = 1; i <= 50; i += 2) {
 //     console.log(i);
 // } 
- 
+  
 // DATY 2
  
 // 1)Sum of numbers from 1 to n. 
