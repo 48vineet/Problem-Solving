@@ -1,144 +1,164 @@
+// JavaScript Learning Series:
+// =====================
 // DAY 1
+// =====================
 
 // Q1 Print numbers from 1 to 10
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
 
-// for (let i = 0; i <= 10; i += 2) {
-//     console.log(i);
-// }
+// Q2 Print even numbers between 1 to 50
+for (let i = 2; i <= 50; i += 2) {
+  console.log(i);
+}
 
-//Q2 Print even numbers between 1 to 50
-
-// for (let i = 0; i <= 50; i += 2) {
-//     console.log(i);
-// }
-
-// Print odd numbers between 1 to 50
-// for (let i = 1; i <= 50; i += 2) {
-//     console.log(i);
-// }
-
-// DATY 2
-
-// 1)Sum of numbers from 1 to n
-// function sumOfNumbers(n) {
-//     return n * (n + 1) / 2;
-// }
-// console.log(sumOfNumbers(30));
+// Q3 Print odd numbers between 1 to 50
+for (let i = 1; i <= 50; i += 2) {
+  console.log(i);
+}
 
 
-// 2) Find the largest of two numbers
-// function largestAndSmallest(a, b) {
-//     if (a > b) {
-//         console.log("Largest number is:", a);
-//         console.log("Smallest number is:", b);
-//     } else {
-//         console.log("Largest number is:", b);
-//         console.log("Smallest number is:", a);
-//     }
-// }
-// largestAndSmallest(100, 10);
+// =====================
+// DAY 2
+// =====================
 
-// 3) Find the smallest of two numbers
-// function smallestNumber(a, b) {
-//     if (a < b) {
-//         console.log("Smallest number is:", a);
-//     } else {
-//         console.log("Smallest number is:", b);
-//     }
-// }
-// smallestNumber(100, 1000);
+// Q1 Sum of numbers from 1 to n
+function sumOfNumbers(n) {
+  return n * (n + 1) / 2;
+}
+console.log(sumOfNumbers(30));
 
-//4)Check if a number is even or odd
+// Q2 Find the largest of two numbers
+function largestAndSmallest(a, b) {
+  if (a > b) {
+      console.log("Largest number is:", a);
+      console.log("Smallest number is:", b);
+  } else {
+      console.log("Largest number is:", b);
+      console.log("Smallest number is:", a);
+  }
+}
+largestAndSmallest(100, 10);
 
-// function oddAndEven(num) {
-//     if (num % 2 == 0) {
-//         console.log(num, "is even number");
-//     } else {
-//         console.log(num, "is ood number");
-//     }
-// }
+// Q3 Smallest of two numbers
+function smallestNumber(a, b) {
+  if (a < b) {
+      console.log("Smallest number is:", a);
+  } else {
+      console.log("Smallest number is:", b);
+  }
+}
+smallestNumber(100, 1000);
 
-// oddAndEven(4)
+// Q4 Check if a number is even or odd
+function oddAndEven(num) {
+  if (num % 2 == 0) {
+      console.log(num, "is even number");
+  } else {
+      console.log(num, "is odd number");
+  }
+}
+oddAndEven(4);
 
-// Find the sum of even numbers till n (n will be entered by user )
+// Q5 Sum of even numbers till n
+function sumEvenNumbers(n) {
+  let sum = 0;
+  for (let i = 2; i <= n; i += 2) {
+      sum += i;
+  }
+  return sum;
+}
+console.log(sumEvenNumbers(10));
 
-// let n = prompt("Enter the number");
+// Q6 Find the sum of odd numbers till n
+function sumOddNumbers(n) {
+  let sum = 0;
+  for (let i = 1; i <= n; i += 2) {
+      sum += i;
+  }
+  return sum;
+}
+console.log(sumOddNumbers(10));
 
-// function sumEvenNumbers(n) {
-//     let sum = 0;
-//     for (let i = 2; i <= n; i += 2) {
-//         sum += i;
-//     }
-//     return sum;
-// }
-// console.log(sumEvenNumbers(n));
+// Q7 Print multiplication table of n
+function table(n) {
+  for (let i = 1; i <= 10; i++) {
+      console.log(`${n} x ${i} = ${n * i}`);
+  }
+}
+table(5);
 
-// Find all even numbers up to(n= 10) : 2, 4, 6, 8, 10 = 30
+// Q8 Find largest digit in number
+const largestDigit = (num) => {
+  if (num < 10) return num;
+  return Math.max(num % 10, largestDigit(Math.floor(num / 10)));
+};
+console.log(largestDigit(5890129));
 
-// function evenNo() {
-//     let n = prompt("Enter No", "10");
-//     let numTerms = n / 2;
-//     let sum = numTerms * (2 + n) / 2;
-//     console.log(sum);
-// }
+// Q9 Sum of digits in a number
+function sumOfDigits(num) {
+  return num.toString().split('').reduce((sum, digit) => sum + Number(digit), 0);
+}
+console.log(sumOfDigits(753));
 
-// evenNo();
-
-
-// Find the sum of Odd numbers till n
-
-// function sumOddNumbers() {
-//     let n = prompt("Enter no", "10");
-//     let answer = n * n;
-//     return answer;
-// }
-// console.log(sumOddNumbers());
-
-
-// Print multiplication table of n
-
-// function table() {
-//     let n = prompt("Enter Table", "2");
-//     for (let i = 1; i <= 10; i++) {
-//         console.log(`${n} x ${i} = ${n * i}`);
-//     }
-// }
-
-// table();
-
-// const largestDigit = (num) => {
-//     if (num < 10) return num;
-//     return Math.max(num % 10, largestDigit(Math.floor(num / 10)));
-// };
-
-// console.log(largestDigit(5890129)); // Output: 9
-
-// - Sum of digits in a number
-// Example:
-// Question: Find the sum of the digits in the number 753.
-// Solution: (7 + 5 + 3 = 15)
-
-// function sumOfDigits(num) {
-//     return num.toString().split('').reduce((sum, digit) => sum + Number(digit), 0);
-// }
-
-// console.log(sumOfDigits(753)); // Output: 15
+// Q10 Find largest among 3 numbers
+function findLargest(a, b, c) {
+  return Math.max(a, b, c);
+}
+console.log(findLargest(18, 42, 27));
 
 
-// - Find the largest among three numbers
-// Example:
-// Question: Find the largest number among 18, 42, and 27.
-// Solution: The largest number is 42.
+// =====================
+// DAY 3
+// =====================
 
-// function findLargest(a, b, c) {
-//     return Math.max(a, b, c);
-// }
+// Q1 Check if a number is prime
+function isPrime(n) {
+  if (n <= 1) return false;
+  for (let i = 2; i <= Math.sqrt(n); i++) {
+      if (n % i === 0) return false;
+  }
+  return true;
+}
+console.log(isPrime(7));
 
-// console.log(findLargest(18, 42, 27)); // Output: 42
-  // 
+// Q2 Print all prime numbers from 1 to 100
+function printPrimes(n) {
+  for (let i = 2; i <= n; i++) {
+      if (isPrime(i)) {
+          console.log(i);
+      }
+  }
+}
+printPrimes(100);
+
+// Q3 Reverse a number
+function reverseNumber(num) {
+  let reversed = 0;
+  while (num > 0) {
+      reversed = reversed * 10 + num % 10;
+      num = Math.floor(num / 10);
+  }
+  return reversed;
+}
+console.log(reverseNumber(12345));
+
+// Q4 Check if number is palindrome
+function isPalindrome(num) {
+  return num === reverseNumber(num);
+}
+console.log(isPalindrome(121));
+
+// Q5 Factorial of a number
+function factorial(n) {
+  if (n === 0 || n === 1) return 1;
+  return n * factorial(n - 1);
+}
+console.log(factorial(5));
 
 
-
-// console.log(findLargest(18, 42, 27)); // Output: 42
-  // 
+// =====================
+// DAY 4 
+// =====================
 
