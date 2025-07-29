@@ -104,10 +104,6 @@ function findLargest(a, b, c) {
 console.log(findLargest(18, 42, 27));
 
 
-// =====================
-// DAY 3
-// =====================
-
 // Q1 Check if a number is prime
 function isPrime(n) {
   if (n <= 1) return false;
