@@ -1,7 +1,4 @@
 // JavaScript Learning Series:
-// =====================
-// DAY 1
-// =====================
 
 // Q1 Print numbers from 1 to 10
 for (let i = 1; i <= 10; i++) {
@@ -19,9 +16,7 @@ for (let i = 1; i <= 50; i += 2) {
 }
 
 
-// =====================
-// DAY 2
-// =====================
+
 
 // Q1 Sum of numbers from 1 to n
 function sumOfNumbers(n) {
