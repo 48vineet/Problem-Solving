@@ -4,7 +4,7 @@
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
-
+ 
 // Q2 Print even numbers between 1 to 50
 for (let i = 2; i <= 50; i += 2) {
   console.log(i);
