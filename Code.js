@@ -181,11 +181,39 @@ function factorial(n) {
 console.log(factorial(5));
 
 
-/**
- * @param {number} n
- * @return {string}
- */
-var countAndSay = function(n) {
-    
-};
+
+
+
+//Kadane Algo
+
+function maxSubarraySum(arr) {
+  // Initialize maxSoFar with the first element, assuming at least one element exists.
+  // If the array can be empty, initialize with -Infinity.
+  let maxSoFar = arr[0]; 
+  let maxEndingHere = arr[0];
+
+  // Iterate through the array starting from the second element
+  for (let i = 1; i < arr.length; i++) {
+    // For each element, decide whether to extend the previous subarray or start a new one.
+    // maxEndingHere tracks the maximum sum of a subarray ending at the current position.
+    maxEndingHere = Math.max(arr[i], maxEndingHere + arr[i]);
+
+    // Update maxSoFar if maxEndingHere is greater.
+    // maxSoFar tracks the overall maximum sum found so far.
+    maxSoFar = Math.max(maxSoFar, maxEndingHere);
+  }
+
+  return maxSoFar;
+}
+
+// Example usage:
+const arr1 = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
+console.log(maxSubarraySum(arr1)); // Output: 6 (from subarray [4, -1, 2, 1])
+
+const arr2 = [1, 2, 3, -2, 5];
+console.log(maxSubarraySum(arr2)); // Output: 9 (from subarray [1, 2, 3, -2, 5])
+
+const arr3 = [-1, -2, -3, -4];
+console.log(maxSubarraySum(arr3)); // Output: -1 (from subarray [-1])
+
 
