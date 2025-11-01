@@ -217,3 +217,35 @@ const arr3 = [-1, -2, -3, -4];
 console.log(maxSubarraySum(arr3)); // Output: -1 (from subarray [-1])
 
 
+// Returns the majority element if one exists (> n/2 occurrences), otherwise returns null
+function majorityElement(nums) {
+  if (!Array.isArray(nums) || nums.length === 0) return null;
+
+  // 1) Find candidate
+  let candidate = null;
+  let count = 0;
+  for (const x of nums) {
+    if (count === 0) {
+      candidate = x;
+      count = 1;
+    } else if (x === candidate) {
+      count++;
+    } else {
+      count--;
+    }
+  }
+
+  // 2) Verify candidate actually is majority
+  if (candidate === null) return null;
+  let occurrences = 0;
+  for (const x of nums) if (x === candidate) occurrences++;
+
+  return occurrences > Math.floor(nums.length / 2) ? candidate : null;
+}
+
+// Example usage:
+console.log(majorityElement([3,3,4]));        // 3
+console.log(majorityElement([2,2,1,1,1,2,2])); // 2
+console.log(majorityElement([1,2,3]));         // null (no majority)
+
+
