@@ -280,3 +280,25 @@ if (index !== -1) {
   console.log(`Target ${targetValue} not found in the array.`);
 }
 
+
+function isPalindrome(str) {
+  str = str.toLowerCase();  // ignore case
+  let i = 0;
+  let j = str.length - 1;
+
+  while (i < j) {
+    if (str[i] !== str[j]) {
+      return false; // mismatch found
+    }
+    i++;
+    j--;
+  }
+
+  return true; // all characters matched
+}
+
+// Example usage
+console.log(isPalindrome("madam"));   // true
+console.log(isPalindrome("racecar")); // true
+console.log(isPalindrome("hello"));   // false
+
