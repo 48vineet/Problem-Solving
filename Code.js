@@ -302,3 +302,26 @@ console.log(isPalindrome("madam"));   // true
 console.log(isPalindrome("racecar")); // true
 console.log(isPalindrome("hello"));   // false
 
+let arr = [1, 2, 3, 2, 4, 3, 5];
+let uniqueArr = [];
+
+for (let i = 0; i < arr.length; i++) {
+  let isDuplicate = false;
+
+  // check if arr[i] already exists in uniqueArr
+  for (let j = 0; j < uniqueArr.length; j++) {
+    if (arr[i] === uniqueArr[j]) {
+      isDuplicate = true;
+      break;
+    }
+  }
+
+  // if not found, push it
+  if (!isDuplicate) {
+    uniqueArr.push(arr[i]);
+  }
+}
+
+console.log(uniqueArr); // [1, 2, 3, 4, 5]
+
+
