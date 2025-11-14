@@ -117,3 +117,80 @@ function merge(left, right) {
 const arr = [38, 27, 43, 3, 9, 82, 10];
 const sorted = mergeSort(arr);
 console.log("Sorted Array:", sorted);
+
+
+const size = 5;
+let queue = new Array(size);
+let front = -1;
+let rear = -1;
+
+// Insert element
+function enqueue(value) {
+    if ((rear + 1) % size === front) {
+        console.log("Queue Overflow!");
+        return;
+    }
+
+    if (front === -1) {
+        front = 0; // first element
+    }
+
+    rear = (rear + 1) % size;
+    queue[rear] = value;
+    console.log(value + " inserted");
+}
+
+// Remove element
+function dequeue() {
+    if (front === -1) {
+        console.log("Queue Underflow!");
+        return;
+    }
+
+    let removed = queue[front];
+
+    if (front === rear) {
+        // last element removed
+        front = rear = -1;
+    } else {
+        front = (front + 1) % size;
+    }
+
+    console.log(removed + " removed");
+    return removed;
+}
+
+// Display queue
+function display() {
+    if (front === -1) {
+        console.log("Queue is empty");
+        return;
+    }
+
+    let i = front;
+    let result = "";
+
+    while (true) {
+        result += queue[i] + " ";
+        if (i === rear) break;
+        i = (i + 1) % size;
+    }
+
+    console.log("Queue:", result);
+}
+
+
+// -------- TESTING --------
+enqueue(10);
+enqueue(20);
+enqueue(30);
+enqueue(40);
+display();
+
+dequeue();
+display();
+
+enqueue(50);
+enqueue(60);
+display();
+
