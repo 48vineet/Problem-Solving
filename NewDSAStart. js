@@ -194,3 +194,28 @@ enqueue(50);
 enqueue(60);
 display();
 
+
+
+Insertion Sort 
+
+function insertionSort(arr) {
+    for (let i = 1; i < arr.length; i++) {
+        let key = arr[i];   // current value
+        let j = i - 1;
+
+        // Move all elements greater than key one step ahead
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+
+        // Place the key in its correct position
+        arr[j + 1] = key;
+    }
+    return arr;
+}
+
+// Example
+let numbers = [5, 3, 8, 4, 2];
+console.log(insertionSort(numbers));
+
