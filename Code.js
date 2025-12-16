@@ -309,3 +309,48 @@
 // }
 
 // console.log(uniqueArr); // [1, 2, 3, 4, 5]
+
+//! GCD
+
+//HCF
+//[20,32] = 4
+
+// function GCD(m, n) {
+//   let size = 0;
+//   if (m > n) {
+//     size = m;
+//   } else {
+//     size = n;
+//   }
+//   var finalCommon = 1;
+//   let common = 1;
+//   let common1 = 1;
+//   for (let i = 1; i < size; i++) {
+//     if (m % i == 0) {
+//       common = i;
+//       if (n % i == 0) {
+//         common1 = i;
+//         if (common == common1) {
+//           finalCommon = common;
+//         }
+//       }
+//     }
+//   }
+//   return finalCommon;
+// }
+
+// function GCDrec(m, n) {
+//   if (m == n) {
+//     return m;
+//   }
+//   if (m > n) {
+//     return GCDrec(m - n, n);
+//   } else {
+//     return GCDrec(m, n - m);
+//   }
+// }
+
+// console.log(GCD(20, 30));
+// console.log(GCDrec(20, 30));
+
+// 

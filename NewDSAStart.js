@@ -283,3 +283,74 @@
 
 //   return [...quickSort(leftArr), pivot, ...quickSort(rightArr)];
 // };
+
+//! HCF / GCD Question
+
+//* Brute Force
+
+// let a = 20;
+// let b = 32;
+
+// for (let i = a; i >= 1; i--) {
+//   if (a % i == 0 && b % i == 0) {
+//     return console.log(i);
+//   }
+// }
+
+//* Efficient Method
+
+// let a = 20;
+// let b = 32;
+
+// while (a != b) {
+//   if (a > b) {
+//     a = a - b;
+//   } else {
+//     b = b - a;
+//   }
+// }
+
+// console.log(b);
+
+//* recursively
+
+// function gcd(a, b) {
+//   if (a === b) return console.log(a);
+//   if (a > b) {
+//     return gcd(a - b, b);
+//   } else {
+//     return gcd(a, b - a);
+//   }
+// }
+
+// gcd(20, 32);
+
+// function gcd(a, b) {
+//   if (b == 0) return a;
+//   return gcd(b, a % b);
+// }
+
+// console.log(gcd(344440, 222220));
+
+//! Factorial
+// let n = 20;
+// for (let i = 1; i <= Math.floor(Math.sqrt(n)); i++) {
+//   if (n % i == 0) {
+//     process.stdout.write(i + " ");
+//     if (i !== n / i) process.stdout.write(n / i + " ");
+//   }
+// }
+
+//! Binary Search
+let arr = [2, 4, 5, 8, 11, 13, 22, 34, 55, 65, 76, 87];
+let index = bS(arr, 0, arr.length - 1, 87);
+if (index == -1) return console.log("Not found");
+console.log(index);
+
+function bS(arr, f, l, t) {
+  if (f > l) return -1;
+  let mid = Math.floor((f + l) / 2);
+  if (arr[mid] == t) return mid;
+  if (arr[mid] > t) return bS(arr, f, mid - 1, t);
+  else return bS(arr, mid + 1, l, t);
+}
