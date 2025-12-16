@@ -342,15 +342,54 @@
 // }
 
 //! Binary Search
-let arr = [2, 4, 5, 8, 11, 13, 22, 34, 55, 65, 76, 87];
-let index = bS(arr, 0, arr.length - 1, 87);
-if (index == -1) return console.log("Not found");
-console.log(index);
+// let arr = [2, 4, 5, 8, 11, 13, 22, 34, 55, 65, 76, 87];
+// let index = bS(arr, 0, arr.length - 1, 87);
+// if (index == -1) return console.log("Not found");
+// console.log(index);
 
-function bS(arr, f, l, t) {
-  if (f > l) return -1;
-  let mid = Math.floor((f + l) / 2);
-  if (arr[mid] == t) return mid;
-  if (arr[mid] > t) return bS(arr, f, mid - 1, t);
-  else return bS(arr, mid + 1, l, t);
+// function bS(arr, f, l, t) {
+//   if (f > l) return -1;
+//   let mid = Math.floor((f + l) / 2);
+//   if (arr[mid] == t) return mid;
+//   if (arr[mid] > t) return bS(arr, f, mid - 1, t);
+//   else return bS(arr, mid + 1, l, t);
+// }
+
+//! Merge Sort
+
+let arr = [2, 5, 12, 54, 32, 1, 43, 22, 19];
+
+function merge(arr, left, mid, right) {
+  let temp = [];
+  let i = left;
+  let j = mid + 1;
+  let k = 0;
+
+  while (i <= mid && j <= right) {
+    if (arr[i] < arr[j]) {
+      temp[k++] = arr[i++];
+    } else {
+      temp[k++] = arr[j++];
+    }
+  }
+  while (i <= mid) {
+    temp[k++] = arr[i++];
+  }
+  while (j <= right) {
+    temp[k++] = arr[j++];
+  }
+  for (let x = 0; x < temp.length; x++) {
+    arr[left + x] = temp[x];
+  }
 }
+
+function mergeSort(arr, left, right) {
+  if (left >= right) return;
+  let mid = Math.floor((left + right) / 2);
+  mergeSort(arr, left, mid);
+  mergeSort(arr, mid + 1, right);
+  merge(arr, left, mid, right);
+}
+
+mergeSort(arr, 0, arr.length - 1);
+console.log(arr);
