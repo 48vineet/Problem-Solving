@@ -24,42 +24,42 @@
 
 //   // Step 1: Split the array into two halves
 //   const mid = Math.floor(arr.length / 2);
-//   const left = arr.slice(0, mid);
-//   const right = arr.slice(mid);
+//   const first = arr.slice(0, mid);
+//   const last = arr.slice(mid);
 
 //   // Step 2: Recursively sort both halves
-//   const sortedLeft = mergeSort(left);
-//   const sortedRight = mergeSort(right);
+//   const sortedfirst = mergeSort(first);
+//   const sortedlast = mergeSort(last);
 
 //   // Step 3: Merge the sorted halves
-//   return merge(sortedLeft, sortedRight);
+//   return merge(sortedfirst, sortedlast);
 // }
 
 // // Helper function to merge two sorted arrays
-// function merge(left, right) {
+// function merge(first, last) {
 //   let result = [];
 //   let i = 0;
 //   let j = 0;
 
 //   // Compare elements and push smaller one first
-//   while (i < left.length && j < right.length) {
-//     if (left[i] < right[j]) {
-//       result.push(left[i]);
+//   while (i < first.length && j < last.length) {
+//     if (first[i] < last[j]) {
+//       result.push(first[i]);
 //       i++;
 //     } else {
-//       result.push(right[j]);
+//       result.push(last[j]);
 //       j++;
 //     }
 //   }
 
 //   // Add remaining elements (if any)
-//   while (i < left.length) {
-//     result.push(left[i]);
+//   while (i < first.length) {
+//     result.push(first[i]);
 //     i++;
 //   }
 
-//   while (j < right.length) {
-//     result.push(right[j]);
+//   while (j < last.length) {
+//     result.push(last[j]);
 //     j++;
 //   }
 
@@ -82,33 +82,33 @@
 //   // Find the middle index
 //   const mid = Math.floor(arr.length / 2);
 
-//   // Divide the array into left and right halves
-//   const left = arr.slice(0, mid);
-//   const right = arr.slice(mid);
+//   // Divide the array into first and last halves
+//   const first = arr.slice(0, mid);
+//   const last = arr.slice(mid);
 
 //   // Recursively sort both halves and merge them
-//   return merge(mergeSort(left), mergeSort(right));
+//   return merge(mergeSort(first), mergeSort(last));
 // }
 
 // Helper function to merge two sorted arrays
-// function merge(left, right) {
+// function merge(first, last) {
 //   const result = [];
 //   let i = 0,
 //     j = 0;
 
 //   // Compare elements and merge in sorted order
-//   while (i < left.length && j < right.length) {
-//     if (left[i] < right[j]) {
-//       result.push(left[i]);
+//   while (i < first.length && j < last.length) {
+//     if (first[i] < last[j]) {
+//       result.push(first[i]);
 //       i++;
 //     } else {
-//       result.push(right[j]);
+//       result.push(last[j]);
 //       j++;
 //     }
 //   }
 
 //   // Add remaining elements
-//   return result.concat(left.slice(i)).concat(right.slice(j));
+//   return result.concat(first.slice(i)).concat(last.slice(j));
 // }
 
 // Example usage
@@ -270,18 +270,18 @@
 //   }
 
 //   let pivot = arr[0];
-//   let leftArr = [];
-//   let rightArr = [];
+//   let firstArr = [];
+//   let lastArr = [];
 
 //   for (let i = 1; i < arr.length; i++) {
 //     if (arr[i] < pivot) {
-//       leftArr.push(arr[i]);
+//       firstArr.push(arr[i]);
 //     } else {
-//       rightArr.push(arr[i]);
+//       lastArr.push(arr[i]);
 //     }
 //   }
 
-//   return [...quickSort(leftArr), pivot, ...quickSort(rightArr)];
+//   return [...quickSort(firstArr), pivot, ...quickSort(lastArr)];
 // };
 
 //! HCF / GCD Question
@@ -357,39 +357,98 @@
 
 //! Merge Sort
 
-let arr = [2, 5, 12, 54, 32, 1, 43, 22, 19];
+// let arr = [2, 5, 12, 54, 32, 1, 43, 22, 19];
+
+// function merge(arr, first, mid, last) {
+//   let temp = [];
+//   let i = first;
+//   let j = mid + 1;
+//   let k = 0;
+
+//   while (i <= mid && j <= last) {
+//     if (arr[i] < arr[j]) {
+//       temp[k++] = arr[i++];
+//     } else {
+//       temp[k++] = arr[j++];
+//     }
+//   }
+//   while (i <= mid) {
+//     temp[k++] = arr[i++];
+//   }
+//   while (j <= last) {
+//     temp[k++] = arr[j++];
+//   }
+//   for (let x = 0; x < temp.length; x++) {
+//     arr[first + x] = temp[x];
+//   }
+// }
+
+// function mergeSort(arr, first, last) {
+//   if (first >= last) return;
+//   let mid = Math.floor((first + last) / 2);
+//   mergeSort(arr, first, mid);
+//   mergeSort(arr, mid + 1, last);
+//   merge(arr, first, mid, last);
+// }
+
+// mergeSort(arr, 0, arr.length - 1);
+// console.log(arr);
+
+//! Cyclic Sort
+
+// let arr = [3, 6, 7, 8, 2, 1, 5, 4];
+// let i = 0;
+
+// function swap(arr, i, j) {
+//   let temp = arr[i];
+//   arr[i] = arr[j];
+//   arr[j] = temp;
+// }
+
+// while (i < arr.length) {
+//   let correctIndex = arr[i] - 1;
+//   if (arr[i] != arr[correctIndex]) swap(arr, i, correctIndex);
+//   else i++;
+// }
+
+// console.log(arr);
+
+let arr = [5, 8, 6, 11, 2, 14, 33, 13, 12, 14];
+
+mergeSort(arr, 0, arr.length - 1);
+console.log(arr);
+
+function mergeSort(arr, first, last) {
+  if (first < last) {
+    let mid = Math.floor((first + last) / 2);
+    mergeSort(arr, first, mid);
+    mergeSort(arr, mid + 1, last);
+    merge(arr, first, mid, last);
+  }
+}
 
 function merge(arr, left, mid, right) {
   let temp = [];
   let i = left;
   let j = mid + 1;
-  let k = 0;
 
   while (i <= mid && j <= right) {
     if (arr[i] < arr[j]) {
-      temp[k++] = arr[i++];
+      temp.push(arr[i++]);
     } else {
-      temp[k++] = arr[j++];
+      temp.push(arr[j++]);
     }
   }
+
   while (i <= mid) {
-    temp[k++] = arr[i++];
+    temp.push(arr[i++]);
   }
+
   while (j <= right) {
-    temp[k++] = arr[j++];
+    temp.push(arr[j++]);
   }
-  for (let x = 0; x < temp.length; x++) {
-    arr[left + x] = temp[x];
+
+  for (let idx = 0; idx < temp.length; idx++) {
+    arr[left + idx] = temp[idx];
   }
 }
-
-function mergeSort(arr, left, right) {
-  if (left >= right) return;
-  let mid = Math.floor((left + right) / 2);
-  mergeSort(arr, left, mid);
-  mergeSort(arr, mid + 1, right);
-  merge(arr, left, mid, right);
-}
-
-mergeSort(arr, 0, arr.length - 1);
-console.log(arr);

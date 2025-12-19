@@ -239,18 +239,18 @@
 // console.log(majorityElement([1,2,3]));         // null (no majority)
 
 // function binarySearch(arr, target) {
-//   let left = 0;
-//   let right = arr.length - 1;
+//   let first = 0;
+//   let last = arr.length - 1;
 
-//   while (left <= right) {
-//     let mid = Math.floor((left + right) / 2);
+//   while (first <= last) {
+//     let mid = Math.floor((first + last) / 2);
 
 //     if (arr[mid] === target) {
 //       return mid; // Target found at index mid
 //     } else if (arr[mid] < target) {
-//       left = mid + 1; // Search in the right half
+//       first = mid + 1; // Search in the last half
 //     } else {
-//       right = mid - 1; // Search in the left half
+//       last = mid - 1; // Search in the first half
 //     }
 //   }
 //   return -1; // Target not found
@@ -353,4 +353,4 @@
 // console.log(GCD(20, 30));
 // console.log(GCDrec(20, 30));
 
-// 
+//
