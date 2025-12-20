@@ -413,42 +413,56 @@
 
 // console.log(arr);
 
-let arr = [5, 8, 6, 11, 2, 14, 33, 13, 12, 14];
+// let arr = [5, 8, 6, 11, 2, 14, 33, 13, 12, 14];
 
-mergeSort(arr, 0, arr.length - 1);
-console.log(arr);
+// mergeSort(arr, 0, arr.length - 1);
+// console.log(arr);
 
-function mergeSort(arr, first, last) {
-  if (first < last) {
-    let mid = Math.floor((first + last) / 2);
-    mergeSort(arr, first, mid);
-    mergeSort(arr, mid + 1, last);
-    merge(arr, first, mid, last);
-  }
-}
+// function mergeSort(arr, first, last) {
+//   if (first < last) {
+//     let mid = Math.floor((first + last) / 2);
+//     mergeSort(arr, first, mid);
+//     mergeSort(arr, mid + 1, last);
+//     merge(arr, first, mid, last);
+//   }
+// }
 
-function merge(arr, left, mid, right) {
-  let temp = [];
-  let i = left;
-  let j = mid + 1;
+// function merge(arr, left, mid, right) {
+//   let temp = [];
+//   let i = left;
+//   let j = mid + 1;
 
-  while (i <= mid && j <= right) {
-    if (arr[i] < arr[j]) {
-      temp.push(arr[i++]);
-    } else {
-      temp.push(arr[j++]);
-    }
-  }
+//   while (i <= mid && j <= right) {
+//     if (arr[i] < arr[j]) {
+//       temp.push(arr[i++]);
+//     } else {
+//       temp.push(arr[j++]);
+//     }
+//   }
 
-  while (i <= mid) {
-    temp.push(arr[i++]);
-  }
+//   while (i <= mid) {
+//     temp.push(arr[i++]);
+//   }
 
-  while (j <= right) {
-    temp.push(arr[j++]);
-  }
+//   while (j <= right) {
+//     temp.push(arr[j++]);
+//   }
 
-  for (let idx = 0; idx < temp.length; idx++) {
-    arr[left + idx] = temp[idx];
-  }
-}
+//   for (let idx = 0; idx < temp.length; idx++) {
+//     arr[left + idx] = temp[idx];
+//   }
+// }
+
+// let arr = [3, 34, 22, 10, 9];
+
+// for (let j = 0; j < arr.length; j++) {
+//   let factor = 0;
+//   for (let i = 1; i <= arr[j]; i++) {
+//     let n = arr[j];
+//     if (n % i == 0) {
+//       factor = factor + i;
+//     }
+//   }
+//   arr[j] = factor;
+// }
+// console.log(arr);
