@@ -534,3 +534,40 @@
 //     return ans;
 //   }
 // }
+
+//! MEDIUM KOKO EATING BANANA
+//? Koko loves to eat bananas. There are n piles of bananas, the ith pile has piles[i] bananas. ?The guards have gone and will come back in h hours.
+//? Koko can decide her bananas-per-hour eating speed of k. Each hour, she chooses some pile of bananas and eats k bananas from that pile. If the pile has less than k bananas, she eats all of them instead and will not eat any more bananas during this hour.
+//? Koko likes to eat slowly but still wants to finish eating all the bananas before the guards return.
+//? Return the minimum integer k such that she can eat all the bananas within h hours.
+
+// /**
+//  * @param {number[]} piles
+//  * @param {number} h
+//  * @return {number}
+//  */
+
+// var isValid = function (pile, speed, h) {
+//   let totalHour = 0;
+//   for (let i = 0; i < pile.length; i++) {
+//     totalHour += Math.ceil(pile[i] / speed);
+//   }
+//   return totalHour <= h;
+// };
+
+// var minEatingSpeed = function (arr, h) {
+//   let start = 1;
+//   let end = Math.max(...arr);
+//   let ans = end;
+
+//   while (start <= end) {
+//     let mid = Math.floor((start + end) / 2);
+//     if (isValid(arr, mid, h)) {
+//       ans = mid;
+//       end = mid - 1;
+//     } else {
+//       start = mid + 1;
+//     }
+//   }
+//   return ans;
+// };
