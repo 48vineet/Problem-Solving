@@ -576,9 +576,49 @@
 //? Given a string s consisting of words and spaces, return the length of the last word in the string.
 //? A word is a maximal substring consisting of non-space characters only.
 
-function lengthOfLastWord(s) {
-  const words = s.trim().split(" ");
-  return words[words.length - 1].length;
+// function lengthOfLastWord(s) {
+//   const words = s.trim().split(" ");
+//   return words[words.length - 1].length;
+// }
+
+// console.log(lengthOfLastWord("Hello World")); // 5
+
+// let arr = [12, 34, 67, 90];
+
+// arr.pop();
+// console.log(arr.length);
+
+// function factorial(n) {
+//   let fact = 1n;
+//   for (let i = n; i >= 1n; i--) {
+//     fact = fact * i;
+//   }
+//   return fact;
+// }
+
+// console.log(factorial(36525n));
+
+let arr = [0, 1, 0, 3, 12];
+let newArr = [];
+let i = 0;
+let j = arr.length;
+
+for (; i < j; i++) {
+  if (arr[i] !== 0) {
+    newArr.push(arr[i]);
+  }
 }
 
-console.log(lengthOfLastWord("Hello World")); // 5
+for (i = 0; i < j; i++) {
+  if (arr[i] == 0) {
+    newArr.push(arr[i]);
+  }
+}
+
+for (let idx = 0; idx < arr.length; idx++) {
+  arr[idx] = newArr[idx];
+}
+
+console.log(arr);
+
+//? 58 ms time complexity bluhhhhhhhhhhhhhhhhhh
