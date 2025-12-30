@@ -600,27 +600,35 @@
 
 //! Move Zero at last
 
-let arr = [0, 1, 0, 3, 12];
-let newArr = [];
-let i = 0;
-let j = arr.length;
+// let arr = [0, 1, 0, 3, 12];
+// let newArr = [];
+// let i = 0;
+// let j = arr.length;
 
-for (; i < j; i++) {
-  if (arr[i] !== 0) {
-    newArr.push(arr[i]);
-  }
-}
+// for (; i < j; i++) {
+//   if (arr[i] !== 0) {
+//     newArr.push(arr[i]);
+//   }
+// }
 
-for (i = 0; i < j; i++) {
-  if (arr[i] == 0) {
-    newArr.push(arr[i]);
-  }
-}
+// for (i = 0; i < j; i++) {
+//   if (arr[i] == 0) {
+//     newArr.push(arr[i]);
+//   }
+// }
 
-for (let idx = 0; idx < arr.length; idx++) {
-  arr[idx] = newArr[idx];
-}
+// for (let idx = 0; idx < arr.length; idx++) {
+//   arr[idx] = newArr[idx];
+// }
 
-console.log(arr);
+// console.log(arr);
 
 //? 58 ms time complexity bluhhhhhhhhhhhhhhhhhh
+
+//? Consider the number of unique elements in nums to be k​​​​​​​​​​​​​​. After removing duplicates, return the number of unique elements k.
+
+//? The first k elements of nums should contain the unique numbers in sorted order. The remaining elements beyond index k - 1 can be ignored.
+
+nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+
+let data = new Set(nums);
