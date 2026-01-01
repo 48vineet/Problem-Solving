@@ -2,7 +2,7 @@
 
 ---
 
-Welcome to my JavaScript Problem Solving repository! This repository is a collection of my solutions to various algorithmic and data structure problems using JavaScript. The goal is to continuously improve my problem-solving skills, explore different approaches, and maintain a record of my progress.
+Welcome to my JavaScript Problem Solving repository! This repository contains solutions to various algorithmic and data structure problems, with questions sourced from platforms like LeetCode, GeeksforGeeks (GFG), and others. The aim is to enhance problem-solving skills, explore diverse approaches, and document progress.
 
 ---
 
@@ -19,60 +19,51 @@ Welcome to my JavaScript Problem Solving repository! This repository is a collec
 
 ## About This Repository
 
-This repository serves as a personal workbook for honing my JavaScript programming skills, particularly in the realm of algorithms and data structures. You'll find solutions to problems from various platforms such as (but not limited to):
+This repository is a personal collection of problem-solving exercises using JavaScript, focusing on algorithms and data structures. Problems are sourced from platforms such as:
 
-* **LeetCode**
-* **HackerRank**
-* **CodeWars**
-* **Advent of Code**
-* **Interview preparation guides**
+- **LeetCode**
+- **GeeksforGeeks (GFG)**
+- **CodeWars**
+- **Advent of Code**
+- **Other online resources**
 
 Each problem typically includes:
-* The problem statement (or a link to it).
-* My solution code.
-* (Optional) Explanations of the thought process, alternative approaches, and time/space complexity analysis.
+
+- The problem statement (or a link to it).
+- My solution code.
+- (Optional) Explanations of the thought process, alternative approaches, and time/space complexity analysis.
 
 ---
 
 ## Problems Solved
 
-Below is a partial list of problems categorized for easy navigation. This section will be updated regularly as more problems are solved.
+Below is a categorized list of solved problems. This section will be updated regularly as new solutions are added.
 
 ### Arrays
 
-* `two-sum/`: Solution for the "Two Sum" problem.
-* `max-subarray/`: Solution for the "Maximum Subarray" problem.
+- `two-sum/`: Solution for the "Two Sum" problem.
+- `max-subarray/`: Solution for the "Maximum Subarray" problem.
 
 ### Strings
 
-* `reverse-string/`: Solution for "Reverse String".
-* `palindrome-checker/`: Solution for "Palindrome Checker".
+- `reverse-string/`: Solution for "Reverse String".
+- `palindrome-checker/`: Solution for "Palindrome Checker".
 
 ### Linked Lists
 
-* `reverse-linked-list/`: Solution for "Reverse Linked List".
+- `reverse-linked-list/`: Solution for "Reverse Linked List".
 
 ### Trees
 
-* `binary-tree-inorder-traversal/`: Solution for "Binary Tree Inorder Traversal".
+- `binary-tree-inorder-traversal/`: Solution for "Binary Tree Inorder Traversal".
 
 ### Algorithms
 
-* `bubble-sort/`: Implementation of Bubble Sort.
-* `quicksort/`: Implementation of Quick Sort.
+- `bubble-sort/`: Implementation of Bubble Sort.
+- `quicksort/`: Implementation of Quick Sort.
 
 ---
 
-## How to Navigate
+```
 
-Each problem solution is typically housed in its own directory, named descriptively. Inside each directory, you'll usually find:
-
-* `index.js` or `solution.js`: The main JavaScript file containing the problem solution.
-* `README.md`: A small README specific to the problem, often including the problem description, test cases, and sometimes detailed explanations.
-* `test.js` (optional): Unit tests for the solution, if applicable.
-
-To view a solution, simply navigate to the respective directory.
-
-```bash
-# Example: Navigating to the Two Sum problem
-cd two-sum
+```
