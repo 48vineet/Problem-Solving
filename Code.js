@@ -354,3 +354,18 @@
 // console.log(GCDrec(20, 30));
 
 //
+// function GCDrec(m, n) {
+//   if (m == n) {
+//     return m;
+//   }
+//   if (m > n) {
+//     return GCDrec(m - n, n);
+//   } else {
+//     return GCDrec(m, n - m);
+//   }
+// }
+
+// console.log(GCD(20, 30));
+// console.log(GCDrec(20, 30));
+
+//
