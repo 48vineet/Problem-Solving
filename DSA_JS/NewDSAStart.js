@@ -1,6 +1,6 @@
 // Find the First Non-Repeated Character
 // Question: Find the first non-repeated character in a string.
-
+  
 // function firstNonRepeatedChar(str) {
 //   const charCount = {};
 //   for (const char of str) {
