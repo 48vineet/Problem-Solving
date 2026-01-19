@@ -1,5 +1,5 @@
 
-from math import log10
+from math import log10, sqrt
 
 #! Reverse the number python prog
 
@@ -58,24 +58,61 @@ num = 14683  # Reinitialize num
 
 #! Check if given no is amstrong no
 
-def isAmstrong(num):
-    orignal = num
-    sumOf = 0
-    count = 0
-    temp = num  # Store the original number for reuse
+# def isAmstrong(num):
+#     orignal = num
+#     sumOf = 0
+#     count = 0
+#     temp = num  # Store the original number for reuse
 
-    while temp > 0:
-        n = temp % 10
-        count += 1
-        temp = temp // 10
+#     while temp > 0:
+#         n = temp % 10
+#         count += 1
+#         temp = temp // 10
 
-    temp = num  # Reinitialize temp to the original number
-    while temp > 0:
-        n = temp % 10
-        sumOf = sumOf + pow(n, count)
-        temp = temp // 10
+#     temp = num  # Reinitialize temp to the original number
+#     while temp > 0:
+#         n = temp % 10
+#         sumOf = sumOf + pow(n, count)
+#         temp = temp // 10
 
-    return orignal == sumOf
+#     return orignal == sumOf
 
 
-print(isAmstrong(134))
+# print(isAmstrong(134))
+
+
+#! Factors of the numbers TC- O(N) SC- O(K) where k would be the total no of factors
+
+# num = 19
+# l1 = []
+
+# for i in range(1, num+1):
+#     if num % i == 0:
+#         l1.append(i)
+
+# print(l1)
+
+
+#! Factors of the numbers TC- O(N/2) SC- O(K) where k would be the total no of factors
+# num = 20
+# l1 = []
+
+# for i in range(1, (num+1)//2):
+#     if num % i == 0:
+#         l1.append(i)
+# l1.append(num)
+# print(l1)
+
+
+#! Factors of the numbers TC- O(sqrt(n)) + o(nlogn) SC- O(K) where k would be the total no of factors
+
+# num = 20
+# l1 = []
+
+# for i in range(1, int((sqrt(num))+1)):
+#     if num % i == 0:
+#         l1.append(i)
+#         if num // i != i:
+#             l1.append(num // i)
+# l1.sort()
+# print(l1)
