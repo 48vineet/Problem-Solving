@@ -119,14 +119,26 @@ num = 14683  # Reinitialize num
 
 #! Hashing in python here time comple is O(1) where space comple is O(1)
 
+# * Method 1
+# nums = [2, 3, 4, 5, 6, 6, 3, 2, 1, 2, 3, 4, 9, 8, 3, 12]
+# dic = {}
+
+
+# for i in range(0, len(nums)):
+#     if nums[i] in dic:
+#         dic[nums[i]] += 1
+#     else:
+#         dic[nums[i]] = 1
+
+# print(dic)
+
+# * Method 2
+
 nums = [2, 3, 4, 5, 6, 6, 3, 2, 1, 2, 3, 4, 9, 8, 3, 12]
 dic = {}
-count = 0
+n = len(nums)
 
-for i in range(0, len(nums)):
-    if nums[i] in dic:
-        dic[nums[i]] += 1
-    else:
-        dic[nums[i]] = 1
+for i in range(0, n):
+    dic[nums[i]] = dic.get(nums[i], 0)+1
 
 print(dic)
