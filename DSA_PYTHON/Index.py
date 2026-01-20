@@ -116,3 +116,17 @@ num = 14683  # Reinitialize num
 #             l1.append(num // i)
 # l1.sort()
 # print(l1)
+
+#! Hashing in python here time comple is O(1) where space comple is O(1)
+
+nums = [2, 3, 4, 5, 6, 6, 3, 2, 1, 2, 3, 4, 9, 8, 3, 12]
+dic = {}
+count = 0
+
+for i in range(0, len(nums)):
+    if nums[i] in dic:
+        dic[nums[i]] += 1
+    else:
+        dic[nums[i]] = 1
+
+print(dic)
