@@ -354,3 +354,23 @@
 // console.log(GCDrec(20, 30));
 
 //
+
+//! Creating hashing with no of occurrence in a string VINEET
+
+function countOccurrences(str) {
+  const hashMap = {};
+
+  for (const char of str) {
+    if (hashMap[char]) {
+      hashMap[char]++;
+    } else {
+      hashMap[char] = 1;
+    }
+  }
+
+  return hashMap;
+}
+
+// Example usage:
+const inputString = "VINEET";
+console.log(countOccurrences(inputString)); // Output: { V: 1, I: 1, N: 1, E: 2, T: 1 }
