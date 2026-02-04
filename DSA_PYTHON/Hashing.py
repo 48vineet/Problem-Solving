@@ -21,8 +21,8 @@
 
 
 # * Step 1
-hashList = [0] * 11
-print(hashList)  # ! [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+# hashList = [0] * 11
+# print(hashList)  # ! [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 # * Step 2
 
@@ -40,3 +40,5 @@ print(hashList)  # ! [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 #         print(hashList[num])
 
 # todo here time complexity is O(m + n) ans space is O(11) which is equal to O(1)
+
+#! Hashing using dictionary
