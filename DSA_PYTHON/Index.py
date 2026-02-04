@@ -150,6 +150,3 @@ dic = {}
 
 #for i in range(0, n):
 #    dic[nums[i]] = dic.get(nums[i], 0)+1
-
-#print(dic)
->>>>>>> 2bc7227a3ab285beb7b78727a2968d7844d07165
