@@ -42,3 +42,27 @@
 # todo here time complexity is O(m + n) ans space is O(11) which is equal to O(1)
 
 #! Hashing using dictionary
+# n = [5, 3, 2, 2, 1, 5, 5, 7, 5, 10]
+# m = [10, 111, 1, 9, 5, 67, 2]
+
+# hashDict = {}
+
+# length = len(n)
+
+# for i in range(0, length):
+#     hashDict[n[i]] = hashDict.get(n[i], 0)+1
+
+# print(hashDict)
+
+#! Hashing with charecter
+
+s = "azyxyyzaaaa"
+q = ["d", "a", "y", "x"]
+
+dictt = {}
+
+for i in s:
+    if i in q:
+        dictt[i] = dictt.get(i, 0)+1
+
+print(dictt)

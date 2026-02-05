@@ -134,7 +134,7 @@ num = 14683  # Reinitialize num
 
 # * Method 2
 
-<<<<<<< HEAD
+
 # nums = [2, 3, 4, 5, 6, 6, 3, 2, 1, 2, 3, 4, 9, 8, 3, 12]
 # dic = {}
 # n = len(nums)
@@ -143,10 +143,11 @@ num = 14683  # Reinitialize num
 #     dic[nums[i]] = dic.get(nums[i], 0)+1
 
 # print(dic)
-=======
-#nums = [2, 3, 4, 5, 6, 6, 3, 2, 1, 2, 3, 4, 9, 8, 3, 12]
-dic = {}
-#n = len(nums)
 
-#for i in range(0, n):
+# nums = [2, 3, 4, 5, 6, 6, 3, 2, 1, 2, 3, 4, 9, 8, 3, 12]
+
+dic = {}
+# n = len(nums)
+
+# for i in range(0, n):
 #    dic[nums[i]] = dic.get(nums[i], 0)+1
