@@ -56,13 +56,13 @@
 
 #! Hashing with charecter
 
-s = "azyxyyzaaaa"
-q = ["d", "a", "y", "x"]
+# s = "azyxyyzaaaa"
+# q = ["d", "a", "y", "x"]
 
-dictt = {}
+# dictt = {}
 
-for i in s:
-    if i in q:
-        dictt[i] = dictt.get(i, 0)+1
+# for i in s:
+#     if i in q:
+#         dictt[i] = dictt.get(i, 0)+1
 
-print(dictt)
+# print(dictt)
