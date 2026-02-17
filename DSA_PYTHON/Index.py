@@ -151,3 +151,35 @@ dic = {}
 
 # for i in range(0, n):
 #    dic[nums[i]] = dic.get(nums[i], 0)+1
+
+#! Check palindrome in the string using recursion and loop
+
+#! By While
+# s = "moom"
+# isPalindrome = True
+# left = 0
+# right = len(s) - 1
+
+# while left < right:
+#     if s[left] != s[right]:
+#         isPalindrome = False
+#         break
+#     left += 1
+#     right -= 1
+
+# print(isPalindrome)
+
+#! By Recursion
+
+
+def func(s, start, end):
+    if start >= end:
+        return True
+    if s[start] != s[end]:
+        return False
+    return func(s, start+1, end-1)
+
+
+s = "nitis"
+n = len(s)
+print(func(s, 0, n-1))
