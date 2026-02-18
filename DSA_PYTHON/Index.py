@@ -171,15 +171,28 @@ dic = {}
 
 #! By Recursion
 
+# def func(s, start, end):
+#     if start >= end:
+#         return True
+#     if s[start] != s[end]:
+#         return False
+#     return func(s, start+1, end-1)
 
-def func(s, start, end):
-    if start >= end:
-        return True
-    if s[start] != s[end]:
-        return False
-    return func(s, start+1, end-1)
+
+# s = "nitis"
+# n = len(s)
+# print(func(s, 0, n-1))
+
+#! Fibonacci Series by Recursion ()
+
+def func(n, first, second):
+    if n == 0:
+        print(first)
+        return
+
+    func(n-1, second, first + second)
 
 
-s = "nitis"
-n = len(s)
-print(func(s, 0, n-1))
+func(10, 0, 1)
+
+arr = [1, 7, 8, 4, 5, 6, 9, 2]
