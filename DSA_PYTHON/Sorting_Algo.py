@@ -45,40 +45,40 @@
 
 #! Merge Sort
 
-def merge(left, right):
-    result = []
-    i, j = 0, 0
-    m, n = len(left), len(right)
+# def merge(left, right):
+#     result = []
+#     i, j = 0, 0
+#     m, n = len(left), len(right)
 
-    while (i < m and j < n):
-        if left[i] <= right[j]:
-            result.append(left[i])
-            i += 1
-        else:
-            result.append(right[j])
-            j += 1
+#     while (i < m and j < n):
+#         if left[i] <= right[j]:
+#             result.append(left[i])
+#             i += 1
+#         else:
+#             result.append(right[j])
+#             j += 1
 
-    if i < m:
-        while (i < m):
-            result.append(left[i])
-            i += 1
+#     if i < m:
+#         while (i < m):
+#             result.append(left[i])
+#             i += 1
 
-    if j < n:
-        while (j < n):
-            result.append(right[j])
-            j += 1
-    return result
-
-
-def sort(arr):
-    if len(arr) <= 1:
-        return arr
-    mid = len(arr) // 2
-    left = sort(arr[:mid])
-    right = sort(arr[mid:])
-    return merge(left, right)
+#     if j < n:
+#         while (j < n):
+#             result.append(right[j])
+#             j += 1
+#     return result
 
 
-arr = [3, 6, 78, 8, 9, 7, 5, 3, 4, 5, 7, 8, 9, 8, 7, 5, 4, 3, 2, 2]
+# def sort(arr):
+#     if len(arr) <= 1:
+#         return arr
+#     mid = len(arr) // 2
+#     left = sort(arr[:mid])
+#     right = sort(arr[mid:])
+#     return merge(left, right)
 
-print(sort(arr))
+
+# arr = [3, 6, 78, 8, 9, 7, 5, 3, 4, 5, 7, 8, 9, 8, 7, 5, 4, 3, 2, 2]
+
+# print(sort(arr))
