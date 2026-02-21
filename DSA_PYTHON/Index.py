@@ -185,14 +185,41 @@ dic = {}
 
 #! Fibonacci Series by Recursion ()
 
-def func(n, first, second):
-    if n == 0:
-        print(first)
-        return
+# def func(n, first, second):
+#     if n == 0:
+#         print(first)
+#         return
 
-    func(n-1, second, first + second)
+#     func(n-1, second, first + second)
 
 
-func(10, 0, 1)
+# func(10, 0, 1)
 
-arr = [1, 7, 8, 4, 5, 6, 9, 2]
+# arr = [1, 7, 8, 4, 5, 6, 9, 2]
+
+#! Merge 2 sorted arrays
+
+# nums1 = [1, 2, 3, 0, 0, 0]
+# nums2 = [2, 5, 6]
+# m = 3
+# n = 3
+
+# i, j = 0, 0
+# result = []
+
+# while i < m and j < n:
+#     if nums1[i] <= nums2[j]:
+#         result.append(nums1[i])
+#         i += 1
+#     else:
+#         result.append(nums2[j])
+#         j += 1
+
+#     if i < m:
+#         while i < m:
+#             result.append(nums1[i])
+#             i += 1
+#     if j < n:
+#         while j < n:
+#             result.append(nums2[j])
+#             j += 1

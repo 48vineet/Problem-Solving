@@ -1,7 +1,8 @@
 
-#! Selection Sort
+#! Selection sort
 
-# arr = [9, 4, 3, 6, 5, 2, 1]
+# arr = [1, 4, 6, 8, 3]
+
 # n = len(arr)
 
 # for i in range(0, n):
@@ -13,32 +14,39 @@
 
 # print(arr)
 
+#! Bubble Sort (Adjacent swapping)
 
-#! Bubble sort (Adjacent Swap)
-
-# arr = [9, 4, 3, 6, 5, 2, 1]
+# arr = [1, 4, 6, 8, 3]
 # n = len(arr)
 
 # for i in range(n-2, -1, -1):
-#     for j in range(0, i+1):
+#     for j in range(0, n-1):
 #         if arr[j] > arr[j+1]:
 #             arr[j], arr[j+1] = arr[j+1], arr[j]
 
-
 # print(arr)
 
-#! Insertion Sort
+#! Selection Sort
 
-# arr = [8, 5, 3, 5, 3, 2, 1]
+# arr1 = [1, 4, 6, 8, 3]
+
 
 # n = len(arr)
 
 # for i in range(1, n):
 #     key = arr[i]
-#     j = i-1
+#     j = i - 1
 #     while j >= 0 and arr[j] > key:
 #         arr[j+1] = arr[j]
 #         j -= 1
 #     arr[j+1] = key
 
-# print(arr)
+# print(arr, "Hii")
+
+
+arr1 = [1, 4, 6, 8, 3]
+arr2 = [9, 8, 7, 6, 5]
+
+arr2 = arr1
+
+print(arr2)
