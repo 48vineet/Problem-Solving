@@ -42,40 +42,67 @@
 
 #! merge sort
 
-def merge(left, right):
-    result = []
-    i, j = 0, 0
-    m, n = len(left), len(right)
+# def merge(left, right):
+#     result = []
+#     i, j = 0, 0
+#     m, n = len(left), len(right)
 
-    while i < m and j < n:
-        if left[i] < right[j]:
-            result.append(left[i])
+#     while i < m and j < n:
+#         if left[i] < right[j]:
+#             result.append(left[i])
+#             i += 1
+#         else:
+#             result.append(right[j])
+#             j += 1
+
+#     if i < m:
+#         while i < m:
+#             result.append(left[i])
+#             i += 1
+
+#     if j < n:
+#         while j < n:
+#             result.append(right[j])
+#             j += 1
+
+#     return result
+
+
+# def mergeSort(arr):
+#     if len(arr) <= 1:
+#         return arr
+#     mid = len(arr) // 2
+#     left = mergeSort(arr[:mid])
+#     right = mergeSort(arr[mid:])
+#     return merge(left, right)
+
+
+# arr = [1, 4, 6, 8, 3]
+# print(mergeSort(arr))
+
+
+#! Quick Sort
+
+def partition(arr, low, high):
+    i = low - 1
+    pivot = arr[high]
+    for j in range(low, high):
+        if arr[j] <= pivot:
             i += 1
-        else:
-            result.append(right[j])
-            j += 1
+            arr[j], arr[i] = arr[i], arr[j]
 
-    if i < m:
-        while i < m:
-            result.append(left[i])
-            i += 1
-
-    if j < n:
-        while j < n:
-            result.append(right[j])
-            j += 1
-
-    return result
+    i += 1
+    arr[high], arr[i] = arr[i], arr[high]
+    return i
 
 
-def mergeSort(arr):
-    if len(arr) <= 1:
-        return arr
-    mid = len(arr) // 2
-    left = mergeSort(arr[:mid])
-    right = mergeSort(arr[mid:])
-    return merge(left, right)
+def quickSort(arr, low, high):
+    if low < high:
+        pivIdx = partition(arr, low, high)
+        quickSort(arr, low, pivIdx-1)
+        quickSort(arr, pivIdx+1, high)
 
 
-arr = [1, 4, 6, 8, 3]
-print(mergeSort(arr))
+arr = [1, 4, 6, 8, 0, 4, 3]
+quickSort(arr, 0, len(arr)-1)
+print(arr)
