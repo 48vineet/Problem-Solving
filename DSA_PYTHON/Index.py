@@ -223,3 +223,42 @@ dic = {}
 #         while j < n:
 #             result.append(nums2[j])
 #             j += 1
+
+
+#! Check the second largest element
+
+# arr = [1, 4, 6, 8, 9, 5, 2]
+# n = len(arr)
+
+# largest = arr[0]
+# secondlargest = arr[0]
+
+# for i in range(0, n):
+#     if arr[i] > largest:
+#         largest = arr[i]
+
+# for j in range(0, n):
+#     if arr[j] > secondlargest and arr[j] < largest:
+#         secondlargest = arr[j]
+
+
+# print(secondlargest)
+
+
+#! check for the second largest optimal one pass
+
+arr = [1, 4, 6, 8, 9, 5, 2]
+n = len(arr)
+
+largest = float("-inf")
+secondLargest = float("-inf")
+
+for i in range(0, n):
+    if arr[i] > largest:
+        secondLargest = largest
+        largest = arr[i]
+    elif arr[i] > secondLargest and arr[i] != largest:
+        secondLargest = arr[i]
+
+
+print(secondLargest)
