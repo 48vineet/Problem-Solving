@@ -247,18 +247,33 @@ dic = {}
 
 #! check for the second largest optimal one pass
 
-arr = [1, 4, 6, 8, 9, 5, 2]
-n = len(arr)
+# arr = [1, 4, 6, 8, 9, 5, 2]
+# n = len(arr)
 
-largest = float("-inf")
-secondLargest = float("-inf")
+# largest = float("-inf")
+# secondLargest = float("-inf")
+
+# for i in range(0, n):
+#     if arr[i] > largest:
+#         secondLargest = largest
+#         largest = arr[i]
+#     elif arr[i] > secondLargest and arr[i] != largest:
+#         secondLargest = arr[i]
+
+
+# print(secondLargest)
+
+#! leetcode 53
+
+arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+n = len(arr)
+maxi = float("-inf")
+total = 0
 
 for i in range(0, n):
-    if arr[i] > largest:
-        secondLargest = largest
-        largest = arr[i]
-    elif arr[i] > secondLargest and arr[i] != largest:
-        secondLargest = arr[i]
+    total = total + arr[i]
+    maxi = max(total, maxi)
+    if total < 0:
+        total = 0
 
-
-print(secondLargest)
+print(maxi)
