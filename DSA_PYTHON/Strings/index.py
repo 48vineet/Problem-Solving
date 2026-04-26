@@ -14,15 +14,6 @@ class Solution:
         return result
 
 
-s = "    the sky is blue   "
-a = s.strip().split()
-
-ans = a.reverse()
-result = " ".join(ans)
-
-print(result)
-
-
 class Solution:
     def reverseWords(self, s: str) -> str:
         a = s.strip().split()
