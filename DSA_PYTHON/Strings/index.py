@@ -1,17 +1,17 @@
-# class Solution:
-#     def removeOuterParentheses(self, s: str) -> str:
-#         result = ""
-#         count = 0
-#         for ch in s:
-#             if ch == "(":
-#                 count += 1
-#                 if count > 1:
-#                     result += ch
-#             else:
-#                 count -= 1
-#                 if count > 0:
-#                     result += ch
-#         return result
+class Solution:
+    def removeOuterParentheses(self, s: str) -> str:
+        result = ""
+        count = 0
+        for ch in s:
+            if ch == "(":
+                count += 1
+                if count > 1:
+                    result += ch
+            else:
+                count -= 1
+                if count > 0:
+                    result += ch
+        return result
 
 
 s = "    the sky is blue   "
@@ -31,6 +31,7 @@ class Solution:
         result = " ".join(a)
         return result
 
+
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         result = ""
@@ -38,7 +39,7 @@ class Solution:
         if len(strs) == 0:
             return ""
 
-        for i in range(0 , len(base)):
+        for i in range(0, len(base)):
             for ch in strs[1:]:
                 if i == len(ch) or ch[i] != base[i]:
                     return result
