@@ -45,3 +45,29 @@ class Solution:
             if int(num[i]) % 2 == 1:
                 return num[:i+1]
         return ""
+
+
+class Solution:
+    def isIsomorphic(self, s: str, t: str) -> bool:
+        mapST = {}
+        mapTS = {}
+
+        for i in range(len(s)):
+            c1 = s[i]
+            c2 = t[i]
+
+            # check s → t
+            if c1 in mapST:
+                if mapST[c1] != c2:
+                    return False
+
+            # check t → s
+            if c2 in mapTS:
+                if mapTS[c2] != c1:
+                    return False
+
+            # store mapping
+            mapST[c1] = c2
+            mapTS[c2] = c1
+
+        return True
