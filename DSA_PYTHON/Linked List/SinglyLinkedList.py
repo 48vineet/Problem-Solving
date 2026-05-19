@@ -18,3 +18,22 @@ class SinglylinkedList:
             while current.next is not None:
                 current = current.next
             current.next = new_node
+
+    def traverse(self):
+        if not self.head:
+            print('SLL Is Empty')
+        else:
+            current = self.head
+            while current is not None:
+                print(current.val, end=" ")
+                current = current.next
+
+
+sll = SinglylinkedList()
+sll.append(1)
+sll.append(12)
+sll.append(31)
+sll.append(12)
+sll.append(111)
+sll.append(10)
+sll.traverse()
