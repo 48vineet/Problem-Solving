@@ -44,6 +44,30 @@ class SinglyLinkedList:
             prev.next = new_node
             new_node.next = curr
 
+    def delete(self, val):
+        temp = self.head
+        if temp.next is not None:
+            if temp.val == val:
+                self.head = temp.next
+                del temp
+                return
+            else:
+                found = False
+                prev = None
+                while temp is not None:
+                    if temp.val == val:
+                        found = True
+                        break
+                    prev = temp
+                    temp = temp.next
+
+                if found:
+                    prev.next = temp.next
+                    del temp
+                    return
+                else:
+                    print("Val Doesnt Exist")
+
 
 node1 = SinglyLinkedList()
 node1.append(5)
@@ -54,4 +78,6 @@ node1.append(2)
 node1.append(5)
 node1.traverse()
 node1.insert(10, 5)
+node1.traverse()
+node1.delete(9)
 node1.traverse()
