@@ -19,7 +19,7 @@ class Solution:
         return temp
 
 
-#! O(n/2) Tortoise Hare Algorithm
+#! O(n/2) Tortoise Hare AlgorithmL
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
