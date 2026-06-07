@@ -11,3 +11,19 @@ class Solution:
             n = n // 2
 
         return res[::-1]
+
+#User function Template for python3
+
+class Solution:
+	def binaryToDecimal(self, b):
+	    dec = 0
+	    power = 0
+	    length = len(b) - 1
+
+	    while length >= 0:
+	        num = int(b[length]) * (2 ** power)
+	        dec += num
+	        length -= 1
+	        power += 1
+
+	    return dec
