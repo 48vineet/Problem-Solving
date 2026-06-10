@@ -37,3 +37,18 @@ class Solution:
                 count += 1
 
         return count
+
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        n = len(nums)
+        subset = 2 ** n
+        result = []
+        for num in range(0 , subset):
+            lst = []
+            for i in range(0 , n):
+                if num & (1 << i) != 0:
+                    lst.append(nums[i])
+
+            result.append(lst)
+
+        return result
