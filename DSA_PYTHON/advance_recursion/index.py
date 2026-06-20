@@ -102,3 +102,50 @@
 
 
 # print(SumOfSequence([1, 2, 3, 4, 5, 6], 8))
+
+
+#! Returnn True If Subset of given target exist
+
+# def targetExist(nums, target):
+#     def backtrack(index, Sum):
+#         if Sum == target:
+#             return True
+#         elif index == len(nums):
+#             return False
+#         elif Sum > target:
+#             return False
+
+#         if backtrack(index + 1, Sum + nums[index]):
+#             return True
+
+#         if backtrack(index + 1, Sum):
+#             return True
+
+#         return False
+
+#     return backtrack(0, 0)
+
+
+# print(targetExist([5, 9, 4], 12))
+
+
+#! Generate alll binary string with value n
+
+def binary(n):
+    result = []
+
+    def solve(s):
+        if n == len(s):
+            result.append(s)
+            return
+        elif len(s) > n:
+            return
+
+        solve(s+"1")
+        solve(s + "0")
+
+    solve("")
+    return result
+
+
+print(binary(4))
