@@ -17,3 +17,15 @@ This repository is a personal collection of problem-solving exercises using Java
 - **Other online resources**
 
  
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/48vineet/Problem-Solving/tree/master/0039-combination-sum) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/48vineet/Problem-Solving/tree/master/0039-combination-sum) |
+<!---LeetCode Topics End-->
