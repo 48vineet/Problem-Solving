@@ -24,10 +24,12 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/48vineet/Problem-Solving/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/48vineet/Problem-Solving/tree/master/0040-combination-sum-ii) |
 ## Backtracking
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/48vineet/Problem-Solving/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/48vineet/Problem-Solving/tree/master/0040-combination-sum-ii) |
 ## Two Pointers
 |  |
 | ------- |
