@@ -6,7 +6,7 @@ class Solution:
             if sum(subset) == n and len(subset) == k:
                 res.append(subset.copy())
                 return
-            
+                
             if idx <= 9:
 
                 subset.append(idx)
