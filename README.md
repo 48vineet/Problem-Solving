@@ -25,6 +25,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | ------- |
 | [0039-combination-sum](https://github.com/48vineet/Problem-Solving/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/48vineet/Problem-Solving/tree/master/0040-combination-sum-ii) |
+| [0075-sort-colors](https://github.com/48vineet/Problem-Solving/tree/master/0075-sort-colors) |
 | [0216-combination-sum-iii](https://github.com/48vineet/Problem-Solving/tree/master/0216-combination-sum-iii) |
 ## Backtracking
 |  |
@@ -36,6 +37,7 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/48vineet/Problem-Solving/tree/master/0075-sort-colors) |
 | [1768-merge-strings-alternately](https://github.com/48vineet/Problem-Solving/tree/master/1768-merge-strings-alternately) |
 ## String
 |  |
@@ -46,4 +48,8 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/48vineet/Problem-Solving/tree/master/0017-letter-combinations-of-a-phone-number) |
+## Sorting
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/48vineet/Problem-Solving/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
