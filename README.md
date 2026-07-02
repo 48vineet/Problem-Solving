@@ -27,6 +27,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0040-combination-sum-ii](https://github.com/48vineet/Problem-Solving/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/48vineet/Problem-Solving/tree/master/0046-permutations) |
 | [0075-sort-colors](https://github.com/48vineet/Problem-Solving/tree/master/0075-sort-colors) |
+| [0090-subsets-ii](https://github.com/48vineet/Problem-Solving/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/48vineet/Problem-Solving/tree/master/0216-combination-sum-iii) |
 ## Backtracking
 |  |
@@ -36,6 +37,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0040-combination-sum-ii](https://github.com/48vineet/Problem-Solving/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/48vineet/Problem-Solving/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/48vineet/Problem-Solving/tree/master/0077-combinations) |
+| [0090-subsets-ii](https://github.com/48vineet/Problem-Solving/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/48vineet/Problem-Solving/tree/master/0216-combination-sum-iii) |
 ## Two Pointers
 |  |
@@ -55,4 +57,8 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/48vineet/Problem-Solving/tree/master/0075-sort-colors) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0090-subsets-ii](https://github.com/48vineet/Problem-Solving/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
