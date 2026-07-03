@@ -61,4 +61,12 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0090-subsets-ii](https://github.com/48vineet/Problem-Solving/tree/master/0090-subsets-ii) |
+## Math
+|  |
+| ------- |
+| [0326-power-of-three](https://github.com/48vineet/Problem-Solving/tree/master/0326-power-of-three) |
+## Recursion
+|  |
+| ------- |
+| [0326-power-of-three](https://github.com/48vineet/Problem-Solving/tree/master/0326-power-of-three) |
 <!---LeetCode Topics End-->
