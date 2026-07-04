@@ -68,5 +68,10 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Recursion
 |  |
 | ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/48vineet/Problem-Solving/tree/master/0024-swap-nodes-in-pairs) |
 | [0326-power-of-three](https://github.com/48vineet/Problem-Solving/tree/master/0326-power-of-three) |
+## Linked List
+|  |
+| ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/48vineet/Problem-Solving/tree/master/0024-swap-nodes-in-pairs) |
 <!---LeetCode Topics End-->
