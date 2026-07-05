@@ -74,4 +74,5 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/48vineet/Problem-Solving/tree/master/0024-swap-nodes-in-pairs) |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/48vineet/Problem-Solving/tree/master/0083-remove-duplicates-from-sorted-list) |
 <!---LeetCode Topics End-->
