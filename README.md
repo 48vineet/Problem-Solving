@@ -48,6 +48,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/48vineet/Problem-Solving/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0796-rotate-string](https://github.com/48vineet/Problem-Solving/tree/master/0796-rotate-string) |
 | [1768-merge-strings-alternately](https://github.com/48vineet/Problem-Solving/tree/master/1768-merge-strings-alternately) |
 ## Hash Table
 |  |
@@ -75,4 +76,8 @@ This repository is a personal collection of problem-solving exercises using Java
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/48vineet/Problem-Solving/tree/master/0024-swap-nodes-in-pairs) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/48vineet/Problem-Solving/tree/master/0083-remove-duplicates-from-sorted-list) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/48vineet/Problem-Solving/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
