@@ -66,6 +66,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0326-power-of-three](https://github.com/48vineet/Problem-Solving/tree/master/0326-power-of-three) |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/48vineet/Problem-Solving/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## Recursion
 |  |
 | ------- |
