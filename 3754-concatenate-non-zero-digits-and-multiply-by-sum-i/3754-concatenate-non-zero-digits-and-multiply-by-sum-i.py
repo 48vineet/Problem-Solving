@@ -15,8 +15,3 @@ class Solution:
             s += n[i]
 
         return int(s) * curr_sum
-        
-
-        
-        
-        
