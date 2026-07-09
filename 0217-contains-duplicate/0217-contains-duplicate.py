@@ -4,7 +4,9 @@ class Solution:
         for num in nums:
             hash_map[num] = hash_map.get(num , 0) + 1
             if hash_map[num] > 1:
+                
                 return True
+
         
         return False
 
