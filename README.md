@@ -31,6 +31,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0090-subsets-ii](https://github.com/48vineet/Problem-Solving/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/48vineet/Problem-Solving/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/48vineet/Problem-Solving/tree/master/0217-contains-duplicate) |
+| [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
 ## Backtracking
 |  |
@@ -47,6 +48,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/48vineet/Problem-Solving/tree/master/0075-sort-colors) |
+| [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [1768-merge-strings-alternately](https://github.com/48vineet/Problem-Solving/tree/master/1768-merge-strings-alternately) |
 ## String
 |  |
@@ -59,12 +61,14 @@ This repository is a personal collection of problem-solving exercises using Java
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/48vineet/Problem-Solving/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0217-contains-duplicate](https://github.com/48vineet/Problem-Solving/tree/master/0217-contains-duplicate) |
+| [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
 ## Sorting
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/48vineet/Problem-Solving/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/48vineet/Problem-Solving/tree/master/0217-contains-duplicate) |
+| [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
 ## Bit Manipulation
 |  |
@@ -90,4 +94,8 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/48vineet/Problem-Solving/tree/master/0796-rotate-string) |
+## Binary Search
+|  |
+| ------- |
+| [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 <!---LeetCode Topics End-->
