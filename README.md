@@ -32,6 +32,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0216-combination-sum-iii](https://github.com/48vineet/Problem-Solving/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/48vineet/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+| [0605-can-place-flowers](https://github.com/48vineet/Problem-Solving/tree/master/0605-can-place-flowers) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1822-sign-of-the-product-of-an-array) |
 ## Backtracking
@@ -100,4 +101,8 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+## Greedy
+|  |
+| ------- |
+| [0605-can-place-flowers](https://github.com/48vineet/Problem-Solving/tree/master/0605-can-place-flowers) |
 <!---LeetCode Topics End-->
