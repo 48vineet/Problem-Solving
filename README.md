@@ -111,4 +111,8 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/48vineet/Problem-Solving/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Enumeration
+|  |
+| ------- |
+| [1291-sequential-digits](https://github.com/48vineet/Problem-Solving/tree/master/1291-sequential-digits) |
 <!---LeetCode Topics End-->
