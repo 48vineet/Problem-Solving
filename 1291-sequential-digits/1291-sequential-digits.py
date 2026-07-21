@@ -6,6 +6,7 @@ class Solution:
             n = str(i)
             for j in range(i+1 , 10):
                 n += str(j)
+                
                 if int(n) >= low and int(n) <= high:
                     res.append(int(n))
                 else:
