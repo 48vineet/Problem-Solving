@@ -82,6 +82,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0326-power-of-three](https://github.com/48vineet/Problem-Solving/tree/master/0326-power-of-three) |
+| [0400-nth-digit](https://github.com/48vineet/Problem-Solving/tree/master/0400-nth-digit) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/48vineet/Problem-Solving/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/48vineet/Problem-Solving/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
@@ -103,6 +104,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+| [0400-nth-digit](https://github.com/48vineet/Problem-Solving/tree/master/0400-nth-digit) |
 ## Greedy
 |  |
 | ------- |
