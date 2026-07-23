@@ -4,5 +4,4 @@ class Solution:
         for ch in s:
             if ch.isalnum():
                 new += ch.lower()
-        
         return new == new[::-1]
