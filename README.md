@@ -36,6 +36,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/48vineet/Problem-Solving/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Backtracking
@@ -78,6 +79,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -131,4 +133,8 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 <!---LeetCode Topics End-->
