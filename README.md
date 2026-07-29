@@ -130,6 +130,7 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/48vineet/Problem-Solving/tree/master/0225-implement-stack-using-queues) |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
 ## Simulation
 |  |
@@ -143,4 +144,12 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [3541-find-most-frequent-vowel-and-consonant](https://github.com/48vineet/Problem-Solving/tree/master/3541-find-most-frequent-vowel-and-consonant) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/48vineet/Problem-Solving/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/48vineet/Problem-Solving/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
