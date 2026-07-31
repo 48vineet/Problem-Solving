@@ -134,6 +134,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/48vineet/Problem-Solving/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/48vineet/Problem-Solving/tree/master/0232-implement-queue-using-stacks) |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
 ## Simulation
 |  |
@@ -151,8 +152,10 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/48vineet/Problem-Solving/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/48vineet/Problem-Solving/tree/master/0232-implement-queue-using-stacks) |
 ## Queue
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/48vineet/Problem-Solving/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/48vineet/Problem-Solving/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
