@@ -23,6 +23,7 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/48vineet/Problem-Solving/tree/master/0001-two-sum) |
 | [0039-combination-sum](https://github.com/48vineet/Problem-Solving/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/48vineet/Problem-Solving/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/48vineet/Problem-Solving/tree/master/0046-permutations) |
@@ -69,6 +70,7 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/48vineet/Problem-Solving/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/48vineet/Problem-Solving/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0217-contains-duplicate](https://github.com/48vineet/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
