@@ -36,6 +36,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0605-can-place-flowers](https://github.com/48vineet/Problem-Solving/tree/master/0605-can-place-flowers) |
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
+| [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1822-sign-of-the-product-of-an-array) |
@@ -96,6 +97,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0326-power-of-three](https://github.com/48vineet/Problem-Solving/tree/master/0326-power-of-three) |
 | [0400-nth-digit](https://github.com/48vineet/Problem-Solving/tree/master/0400-nth-digit) |
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
+| [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/48vineet/Problem-Solving/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/48vineet/Problem-Solving/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -160,4 +162,12 @@ This repository is a personal collection of problem-solving exercises using Java
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/48vineet/Problem-Solving/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/48vineet/Problem-Solving/tree/master/0232-implement-queue-using-stacks) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
+## Game Theory
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
