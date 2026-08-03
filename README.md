@@ -64,6 +64,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/48vineet/Problem-Solving/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/48vineet/Problem-Solving/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/48vineet/Problem-Solving/tree/master/0125-valid-palindrome) |
 | [0796-rotate-string](https://github.com/48vineet/Problem-Solving/tree/master/0796-rotate-string) |
 | [1768-merge-strings-alternately](https://github.com/48vineet/Problem-Solving/tree/master/1768-merge-strings-alternately) |
@@ -138,6 +139,7 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/48vineet/Problem-Solving/tree/master/0020-valid-parentheses) |
 | [0225-implement-stack-using-queues](https://github.com/48vineet/Problem-Solving/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/48vineet/Problem-Solving/tree/master/0232-implement-queue-using-stacks) |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
@@ -172,4 +174,8 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/48vineet/Problem-Solving/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
