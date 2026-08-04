@@ -24,6 +24,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/48vineet/Problem-Solving/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/48vineet/Problem-Solving/tree/master/0011-container-with-most-water) |
 | [0039-combination-sum](https://github.com/48vineet/Problem-Solving/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/48vineet/Problem-Solving/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/48vineet/Problem-Solving/tree/master/0046-permutations) |
@@ -56,6 +57,7 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/48vineet/Problem-Solving/tree/master/0011-container-with-most-water) |
 | [0075-sort-colors](https://github.com/48vineet/Problem-Solving/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/48vineet/Problem-Solving/tree/master/0125-valid-palindrome) |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
@@ -126,6 +128,7 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/48vineet/Problem-Solving/tree/master/0011-container-with-most-water) |
 | [0605-can-place-flowers](https://github.com/48vineet/Problem-Solving/tree/master/0605-can-place-flowers) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/48vineet/Problem-Solving/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 ## Number Theory
