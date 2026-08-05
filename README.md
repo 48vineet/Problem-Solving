@@ -34,6 +34,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0216-combination-sum-iii](https://github.com/48vineet/Problem-Solving/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/48vineet/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+| [0496-next-greater-element-i](https://github.com/48vineet/Problem-Solving/tree/master/0496-next-greater-element-i) |
 | [0605-can-place-flowers](https://github.com/48vineet/Problem-Solving/tree/master/0605-can-place-flowers) |
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
@@ -79,6 +80,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0017-letter-combinations-of-a-phone-number](https://github.com/48vineet/Problem-Solving/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0217-contains-duplicate](https://github.com/48vineet/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+| [0496-next-greater-element-i](https://github.com/48vineet/Problem-Solving/tree/master/0496-next-greater-element-i) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
 | [3541-find-most-frequent-vowel-and-consonant](https://github.com/48vineet/Problem-Solving/tree/master/3541-find-most-frequent-vowel-and-consonant) |
 ## Sorting
@@ -146,6 +148,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0155-min-stack](https://github.com/48vineet/Problem-Solving/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/48vineet/Problem-Solving/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/48vineet/Problem-Solving/tree/master/0232-implement-queue-using-stacks) |
+| [0496-next-greater-element-i](https://github.com/48vineet/Problem-Solving/tree/master/0496-next-greater-element-i) |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
 ## Simulation
 |  |
@@ -183,4 +186,8 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/48vineet/Problem-Solving/tree/master/0020-valid-parentheses) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/48vineet/Problem-Solving/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
