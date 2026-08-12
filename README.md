@@ -39,6 +39,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0605-can-place-flowers](https://github.com/48vineet/Problem-Solving/tree/master/0605-can-place-flowers) |
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
+| [0735-asteroid-collision](https://github.com/48vineet/Problem-Solving/tree/master/0735-asteroid-collision) |
 | [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -152,10 +153,12 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0496-next-greater-element-i](https://github.com/48vineet/Problem-Solving/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/48vineet/Problem-Solving/tree/master/0503-next-greater-element-ii) |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
+| [0735-asteroid-collision](https://github.com/48vineet/Problem-Solving/tree/master/0735-asteroid-collision) |
 ## Simulation
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
+| [0735-asteroid-collision](https://github.com/48vineet/Problem-Solving/tree/master/0735-asteroid-collision) |
 | [2553-separate-the-digits-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/2553-separate-the-digits-in-an-array) |
 ## Heap (Priority Queue)
 |  |
