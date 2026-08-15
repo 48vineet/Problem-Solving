@@ -43,6 +43,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
 | [1004-max-consecutive-ones-iii](https://github.com/48vineet/Problem-Solving/tree/master/1004-max-consecutive-ones-iii) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/48vineet/Problem-Solving/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/48vineet/Problem-Solving/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -205,8 +206,10 @@ This repository is a personal collection of problem-solving exercises using Java
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/48vineet/Problem-Solving/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1004-max-consecutive-ones-iii](https://github.com/48vineet/Problem-Solving/tree/master/1004-max-consecutive-ones-iii) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/48vineet/Problem-Solving/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Prefix Sum
 |  |
 | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/48vineet/Problem-Solving/tree/master/1004-max-consecutive-ones-iii) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/48vineet/Problem-Solving/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
