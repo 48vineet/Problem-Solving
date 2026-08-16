@@ -34,6 +34,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0216-combination-sum-iii](https://github.com/48vineet/Problem-Solving/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/48vineet/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+| [0455-assign-cookies](https://github.com/48vineet/Problem-Solving/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/48vineet/Problem-Solving/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/48vineet/Problem-Solving/tree/master/0503-next-greater-element-ii) |
 | [0605-can-place-flowers](https://github.com/48vineet/Problem-Solving/tree/master/0605-can-place-flowers) |
@@ -66,6 +67,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0075-sort-colors](https://github.com/48vineet/Problem-Solving/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/48vineet/Problem-Solving/tree/master/0125-valid-palindrome) |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+| [0455-assign-cookies](https://github.com/48vineet/Problem-Solving/tree/master/0455-assign-cookies) |
 | [1768-merge-strings-alternately](https://github.com/48vineet/Problem-Solving/tree/master/1768-merge-strings-alternately) |
 ## String
 |  |
@@ -95,6 +97,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0075-sort-colors](https://github.com/48vineet/Problem-Solving/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/48vineet/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
+| [0455-assign-cookies](https://github.com/48vineet/Problem-Solving/tree/master/0455-assign-cookies) |
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -138,6 +141,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/48vineet/Problem-Solving/tree/master/0011-container-with-most-water) |
+| [0455-assign-cookies](https://github.com/48vineet/Problem-Solving/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/48vineet/Problem-Solving/tree/master/0605-can-place-flowers) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/48vineet/Problem-Solving/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 ## Number Theory
@@ -212,4 +216,8 @@ This repository is a personal collection of problem-solving exercises using Java
 | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/48vineet/Problem-Solving/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/48vineet/Problem-Solving/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+## Quicksort
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/48vineet/Problem-Solving/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
