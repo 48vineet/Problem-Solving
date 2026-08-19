@@ -41,6 +41,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/48vineet/Problem-Solving/tree/master/0735-asteroid-collision) |
+| [0860-lemonade-change](https://github.com/48vineet/Problem-Solving/tree/master/0860-lemonade-change) |
 | [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
 | [1004-max-consecutive-ones-iii](https://github.com/48vineet/Problem-Solving/tree/master/1004-max-consecutive-ones-iii) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
@@ -143,6 +144,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0011-container-with-most-water](https://github.com/48vineet/Problem-Solving/tree/master/0011-container-with-most-water) |
 | [0455-assign-cookies](https://github.com/48vineet/Problem-Solving/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/48vineet/Problem-Solving/tree/master/0605-can-place-flowers) |
+| [0860-lemonade-change](https://github.com/48vineet/Problem-Solving/tree/master/0860-lemonade-change) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/48vineet/Problem-Solving/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 ## Number Theory
 |  |
