@@ -27,6 +27,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0011-container-with-most-water](https://github.com/48vineet/Problem-Solving/tree/master/0011-container-with-most-water) |
 | [0039-combination-sum](https://github.com/48vineet/Problem-Solving/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/48vineet/Problem-Solving/tree/master/0040-combination-sum-ii) |
+| [0045-jump-game-ii](https://github.com/48vineet/Problem-Solving/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/48vineet/Problem-Solving/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/48vineet/Problem-Solving/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/48vineet/Problem-Solving/tree/master/0055-jump-game) |
@@ -143,6 +144,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/48vineet/Problem-Solving/tree/master/0011-container-with-most-water) |
+| [0045-jump-game-ii](https://github.com/48vineet/Problem-Solving/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/48vineet/Problem-Solving/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/48vineet/Problem-Solving/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/48vineet/Problem-Solving/tree/master/0605-can-place-flowers) |
@@ -195,6 +197,7 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/48vineet/Problem-Solving/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/48vineet/Problem-Solving/tree/master/0055-jump-game) |
 | [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
 ## Game Theory
