@@ -112,6 +112,7 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Math
 |  |
 | ------- |
+| [0009-palindrome-number](https://github.com/48vineet/Problem-Solving/tree/master/0009-palindrome-number) |
 | [0326-power-of-three](https://github.com/48vineet/Problem-Solving/tree/master/0326-power-of-three) |
 | [0400-nth-digit](https://github.com/48vineet/Problem-Solving/tree/master/0400-nth-digit) |
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
