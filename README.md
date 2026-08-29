@@ -236,16 +236,19 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/48vineet/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
+| [0110-balanced-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0110-balanced-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/48vineet/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
+| [0110-balanced-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0110-balanced-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/48vineet/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
+| [0110-balanced-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0110-balanced-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 ## DP on Trees
 |  |
