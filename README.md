@@ -208,6 +208,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | ------- |
 | [0045-jump-game-ii](https://github.com/48vineet/Problem-Solving/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/48vineet/Problem-Solving/tree/master/0055-jump-game) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
 ## Game Theory
 |  |
@@ -244,6 +245,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0094-binary-tree-inorder-traversal](https://github.com/48vineet/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
 |  |
@@ -251,6 +253,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0094-binary-tree-inorder-traversal](https://github.com/48vineet/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Tree
 |  |
@@ -258,10 +261,12 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0094-binary-tree-inorder-traversal](https://github.com/48vineet/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 ## DP on Trees
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 ## Breadth-First Search
 |  |
