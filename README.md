@@ -246,6 +246,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0101-symmetric-tree](https://github.com/48vineet/Problem-Solving/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0110-balanced-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
@@ -255,6 +256,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0101-symmetric-tree](https://github.com/48vineet/Problem-Solving/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0110-balanced-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Tree
@@ -264,6 +266,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0101-symmetric-tree](https://github.com/48vineet/Problem-Solving/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0110-balanced-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 ## DP on Trees
@@ -276,4 +279,5 @@ This repository is a personal collection of problem-solving exercises using Java
 | ------- |
 | [0101-symmetric-tree](https://github.com/48vineet/Problem-Solving/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0111-minimum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
