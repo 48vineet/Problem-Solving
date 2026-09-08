@@ -126,6 +126,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [1979-find-greatest-common-divisor-of-array](https://github.com/48vineet/Problem-Solving/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/48vineet/Problem-Solving/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/48vineet/Problem-Solving/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+| [3870-count-commas-in-range](https://github.com/48vineet/Problem-Solving/tree/master/3870-count-commas-in-range) |
 ## Recursion
 |  |
 | ------- |
