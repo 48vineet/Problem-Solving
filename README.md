@@ -72,6 +72,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0125-valid-palindrome](https://github.com/48vineet/Problem-Solving/tree/master/0125-valid-palindrome) |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/48vineet/Problem-Solving/tree/master/0455-assign-cookies) |
+| [0844-backspace-string-compare](https://github.com/48vineet/Problem-Solving/tree/master/0844-backspace-string-compare) |
 | [1768-merge-strings-alternately](https://github.com/48vineet/Problem-Solving/tree/master/1768-merge-strings-alternately) |
 ## String
 |  |
@@ -81,6 +82,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0020-valid-parentheses](https://github.com/48vineet/Problem-Solving/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/48vineet/Problem-Solving/tree/master/0125-valid-palindrome) |
 | [0796-rotate-string](https://github.com/48vineet/Problem-Solving/tree/master/0796-rotate-string) |
+| [0844-backspace-string-compare](https://github.com/48vineet/Problem-Solving/tree/master/0844-backspace-string-compare) |
 | [1768-merge-strings-alternately](https://github.com/48vineet/Problem-Solving/tree/master/1768-merge-strings-alternately) |
 | [2351-first-letter-to-appear-twice](https://github.com/48vineet/Problem-Solving/tree/master/2351-first-letter-to-appear-twice) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/48vineet/Problem-Solving/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
@@ -178,11 +180,13 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0503-next-greater-element-ii](https://github.com/48vineet/Problem-Solving/tree/master/0503-next-greater-element-ii) |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/48vineet/Problem-Solving/tree/master/0735-asteroid-collision) |
+| [0844-backspace-string-compare](https://github.com/48vineet/Problem-Solving/tree/master/0844-backspace-string-compare) |
 ## Simulation
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/48vineet/Problem-Solving/tree/master/0735-asteroid-collision) |
+| [0844-backspace-string-compare](https://github.com/48vineet/Problem-Solving/tree/master/0844-backspace-string-compare) |
 | [2553-separate-the-digits-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/2553-separate-the-digits-in-an-array) |
 ## Heap (Priority Queue)
 |  |
