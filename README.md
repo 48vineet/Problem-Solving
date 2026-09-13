@@ -81,6 +81,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0017-letter-combinations-of-a-phone-number](https://github.com/48vineet/Problem-Solving/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/48vineet/Problem-Solving/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/48vineet/Problem-Solving/tree/master/0125-valid-palindrome) |
+| [0168-excel-sheet-column-title](https://github.com/48vineet/Problem-Solving/tree/master/0168-excel-sheet-column-title) |
 | [0796-rotate-string](https://github.com/48vineet/Problem-Solving/tree/master/0796-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/48vineet/Problem-Solving/tree/master/0844-backspace-string-compare) |
 | [1768-merge-strings-alternately](https://github.com/48vineet/Problem-Solving/tree/master/1768-merge-strings-alternately) |
@@ -120,6 +121,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/48vineet/Problem-Solving/tree/master/0009-palindrome-number) |
+| [0168-excel-sheet-column-title](https://github.com/48vineet/Problem-Solving/tree/master/0168-excel-sheet-column-title) |
 | [0326-power-of-three](https://github.com/48vineet/Problem-Solving/tree/master/0326-power-of-three) |
 | [0400-nth-digit](https://github.com/48vineet/Problem-Solving/tree/master/0400-nth-digit) |
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
