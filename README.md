@@ -125,6 +125,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0326-power-of-three](https://github.com/48vineet/Problem-Solving/tree/master/0326-power-of-three) |
 | [0400-nth-digit](https://github.com/48vineet/Problem-Solving/tree/master/0400-nth-digit) |
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
+| [0836-rectangle-overlap](https://github.com/48vineet/Problem-Solving/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/48vineet/Problem-Solving/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -287,4 +288,8 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0101-symmetric-tree](https://github.com/48vineet/Problem-Solving/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0111-minimum-depth-of-binary-tree) |
+## Geometry
+|  |
+| ------- |
+| [0836-rectangle-overlap](https://github.com/48vineet/Problem-Solving/tree/master/0836-rectangle-overlap) |
 <!---LeetCode Topics End-->
