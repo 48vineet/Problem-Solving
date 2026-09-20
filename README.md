@@ -1,8 +1,8 @@
-# JavaScript Problem Solving
+# Python Problem Solving
 
 ---
 
-Welcome to my JavaScript Problem Solving repository! This repository contains solutions to various algorithmic and data structure problems, with questions sourced from platforms like LeetCode, GeeksforGeeks (GFG), and others. The aim is to enhance problem-solving skills, explore diverse approaches, and document progress.
+Welcome to my Python Problem Solving repository! This repository contains solutions to various algorithmic and data structure problems, with questions sourced from platforms like LeetCode, GeeksforGeeks (GFG), and others. The aim is to enhance problem-solving skills, explore diverse approaches, and document progress.
 
 ---
 
