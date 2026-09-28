@@ -86,6 +86,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0383-ransom-note](https://github.com/48vineet/Problem-Solving/tree/master/0383-ransom-note) |
 | [0796-rotate-string](https://github.com/48vineet/Problem-Solving/tree/master/0796-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/48vineet/Problem-Solving/tree/master/0844-backspace-string-compare) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/48vineet/Problem-Solving/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1768-merge-strings-alternately](https://github.com/48vineet/Problem-Solving/tree/master/1768-merge-strings-alternately) |
 | [2351-first-letter-to-appear-twice](https://github.com/48vineet/Problem-Solving/tree/master/2351-first-letter-to-appear-twice) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/48vineet/Problem-Solving/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
@@ -189,6 +190,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/48vineet/Problem-Solving/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/48vineet/Problem-Solving/tree/master/0844-backspace-string-compare) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/48vineet/Problem-Solving/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Simulation
 |  |
 | ------- |
@@ -233,6 +235,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/48vineet/Problem-Solving/tree/master/0020-valid-parentheses) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/48vineet/Problem-Solving/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Monotonic Stack
 |  |
 | ------- |
