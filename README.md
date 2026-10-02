@@ -71,6 +71,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0011-container-with-most-water](https://github.com/48vineet/Problem-Solving/tree/master/0011-container-with-most-water) |
 | [0075-sort-colors](https://github.com/48vineet/Problem-Solving/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/48vineet/Problem-Solving/tree/master/0125-valid-palindrome) |
+| [0141-linked-list-cycle](https://github.com/48vineet/Problem-Solving/tree/master/0141-linked-list-cycle) |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/48vineet/Problem-Solving/tree/master/0455-assign-cookies) |
 | [0844-backspace-string-compare](https://github.com/48vineet/Problem-Solving/tree/master/0844-backspace-string-compare) |
@@ -99,6 +100,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0001-two-sum](https://github.com/48vineet/Problem-Solving/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/48vineet/Problem-Solving/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/48vineet/Problem-Solving/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0141-linked-list-cycle](https://github.com/48vineet/Problem-Solving/tree/master/0141-linked-list-cycle) |
 | [0217-contains-duplicate](https://github.com/48vineet/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [0349-intersection-of-two-arrays](https://github.com/48vineet/Problem-Solving/tree/master/0349-intersection-of-two-arrays) |
 | [0383-ransom-note](https://github.com/48vineet/Problem-Solving/tree/master/0383-ransom-note) |
@@ -148,6 +150,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/48vineet/Problem-Solving/tree/master/0024-swap-nodes-in-pairs) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/48vineet/Problem-Solving/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0141-linked-list-cycle](https://github.com/48vineet/Problem-Solving/tree/master/0141-linked-list-cycle) |
 ## String Matching
 |  |
 | ------- |
@@ -322,4 +325,8 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0450-delete-node-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0701-insert-into-a-binary-search-tree) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/48vineet/Problem-Solving/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
