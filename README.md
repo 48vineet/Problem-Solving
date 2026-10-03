@@ -271,6 +271,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0111-minimum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0700-search-in-a-binary-search-tree) |
@@ -286,6 +287,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0111-minimum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Tree
 |  |
@@ -298,6 +300,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0111-minimum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0700-search-in-a-binary-search-tree) |
@@ -322,6 +325,7 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0701-insert-into-a-binary-search-tree) |
@@ -329,4 +333,12 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/48vineet/Problem-Solving/tree/master/0141-linked-list-cycle) |
+## Binary Lifting
+|  |
+| ------- |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Lowest Common Ancestor
+|  |
+| ------- |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 <!---LeetCode Topics End-->
