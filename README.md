@@ -46,6 +46,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0860-lemonade-change](https://github.com/48vineet/Problem-Solving/tree/master/0860-lemonade-change) |
 | [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
 | [1004-max-consecutive-ones-iii](https://github.com/48vineet/Problem-Solving/tree/master/1004-max-consecutive-ones-iii) |
+| [1046-last-stone-weight](https://github.com/48vineet/Problem-Solving/tree/master/1046-last-stone-weight) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/48vineet/Problem-Solving/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -205,6 +206,7 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [1046-last-stone-weight](https://github.com/48vineet/Problem-Solving/tree/master/1046-last-stone-weight) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Counting
 |  |
