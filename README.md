@@ -56,6 +56,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/48vineet/Problem-Solving/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2553-separate-the-digits-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/2553-separate-the-digits-in-an-array) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/48vineet/Problem-Solving/tree/master/2778-sum-of-squares-of-special-elements) |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/48vineet/Problem-Solving/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/48vineet/Problem-Solving/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 ## Backtracking
 |  |
@@ -113,6 +114,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0496-next-greater-element-i](https://github.com/48vineet/Problem-Solving/tree/master/0496-next-greater-element-i) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
 | [2351-first-letter-to-appear-twice](https://github.com/48vineet/Problem-Solving/tree/master/2351-first-letter-to-appear-twice) |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/48vineet/Problem-Solving/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3541-find-most-frequent-vowel-and-consonant](https://github.com/48vineet/Problem-Solving/tree/master/3541-find-most-frequent-vowel-and-consonant) |
 ## Sorting
 |  |
@@ -355,4 +357,12 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/48vineet/Problem-Solving/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+## Segment Tree
+|  |
+| ------- |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/48vineet/Problem-Solving/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 <!---LeetCode Topics End-->
