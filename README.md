@@ -198,6 +198,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | ------- |
 | [0020-valid-parentheses](https://github.com/48vineet/Problem-Solving/tree/master/0020-valid-parentheses) |
 | [0094-binary-tree-inorder-traversal](https://github.com/48vineet/Problem-Solving/tree/master/0094-binary-tree-inorder-traversal) |
+| [0144-binary-tree-preorder-traversal](https://github.com/48vineet/Problem-Solving/tree/master/0144-binary-tree-preorder-traversal) |
 | [0155-min-stack](https://github.com/48vineet/Problem-Solving/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/48vineet/Problem-Solving/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/48vineet/Problem-Solving/tree/master/0232-implement-queue-using-stacks) |
@@ -287,6 +288,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0111-minimum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0144-binary-tree-preorder-traversal](https://github.com/48vineet/Problem-Solving/tree/master/0144-binary-tree-preorder-traversal) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0450-delete-node-in-a-bst) |
@@ -304,6 +306,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0111-minimum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0144-binary-tree-preorder-traversal](https://github.com/48vineet/Problem-Solving/tree/master/0144-binary-tree-preorder-traversal) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
@@ -318,6 +321,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0111-minimum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0144-binary-tree-preorder-traversal](https://github.com/48vineet/Problem-Solving/tree/master/0144-binary-tree-preorder-traversal) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/48vineet/Problem-Solving/tree/master/0450-delete-node-in-a-bst) |
