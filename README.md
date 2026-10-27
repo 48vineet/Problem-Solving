@@ -58,6 +58,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [2778-sum-of-squares-of-special-elements](https://github.com/48vineet/Problem-Solving/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/48vineet/Problem-Solving/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/48vineet/Problem-Solving/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
+| [3731-find-missing-elements](https://github.com/48vineet/Problem-Solving/tree/master/3731-find-missing-elements) |
 ## Backtracking
 |  |
 | ------- |
@@ -116,6 +117,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [2351-first-letter-to-appear-twice](https://github.com/48vineet/Problem-Solving/tree/master/2351-first-letter-to-appear-twice) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/48vineet/Problem-Solving/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3541-find-most-frequent-vowel-and-consonant](https://github.com/48vineet/Problem-Solving/tree/master/3541-find-most-frequent-vowel-and-consonant) |
+| [3731-find-missing-elements](https://github.com/48vineet/Problem-Solving/tree/master/3731-find-missing-elements) |
 ## Sorting
 |  |
 | ------- |
@@ -127,6 +129,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [3731-find-missing-elements](https://github.com/48vineet/Problem-Solving/tree/master/3731-find-missing-elements) |
 ## Bit Manipulation
 |  |
 | ------- |
