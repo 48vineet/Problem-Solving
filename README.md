@@ -141,6 +141,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | ------- |
 | [0009-palindrome-number](https://github.com/48vineet/Problem-Solving/tree/master/0009-palindrome-number) |
 | [0168-excel-sheet-column-title](https://github.com/48vineet/Problem-Solving/tree/master/0168-excel-sheet-column-title) |
+| [0258-add-digits](https://github.com/48vineet/Problem-Solving/tree/master/0258-add-digits) |
 | [0326-power-of-three](https://github.com/48vineet/Problem-Solving/tree/master/0326-power-of-three) |
 | [0400-nth-digit](https://github.com/48vineet/Problem-Solving/tree/master/0400-nth-digit) |
 | [0628-maximum-product-of-three-numbers](https://github.com/48vineet/Problem-Solving/tree/master/0628-maximum-product-of-three-numbers) |
@@ -190,6 +191,7 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Number Theory
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/48vineet/Problem-Solving/tree/master/0258-add-digits) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/48vineet/Problem-Solving/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Enumeration
 |  |
@@ -215,6 +217,7 @@ This repository is a personal collection of problem-solving exercises using Java
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/48vineet/Problem-Solving/tree/master/0258-add-digits) |
 | [0682-baseball-game](https://github.com/48vineet/Problem-Solving/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/48vineet/Problem-Solving/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/48vineet/Problem-Solving/tree/master/0844-backspace-string-compare) |
