@@ -91,6 +91,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0125-valid-palindrome](https://github.com/48vineet/Problem-Solving/tree/master/0125-valid-palindrome) |
 | [0168-excel-sheet-column-title](https://github.com/48vineet/Problem-Solving/tree/master/0168-excel-sheet-column-title) |
 | [0383-ransom-note](https://github.com/48vineet/Problem-Solving/tree/master/0383-ransom-note) |
+| [0709-to-lower-case](https://github.com/48vineet/Problem-Solving/tree/master/0709-to-lower-case) |
 | [0796-rotate-string](https://github.com/48vineet/Problem-Solving/tree/master/0796-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/48vineet/Problem-Solving/tree/master/0844-backspace-string-compare) |
 | [1021-remove-outermost-parentheses](https://github.com/48vineet/Problem-Solving/tree/master/1021-remove-outermost-parentheses) |
