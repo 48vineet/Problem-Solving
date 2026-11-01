@@ -46,6 +46,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0735-asteroid-collision](https://github.com/48vineet/Problem-Solving/tree/master/0735-asteroid-collision) |
 | [0860-lemonade-change](https://github.com/48vineet/Problem-Solving/tree/master/0860-lemonade-change) |
 | [0877-stone-game](https://github.com/48vineet/Problem-Solving/tree/master/0877-stone-game) |
+| [0994-rotting-oranges](https://github.com/48vineet/Problem-Solving/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/48vineet/Problem-Solving/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-last-stone-weight](https://github.com/48vineet/Problem-Solving/tree/master/1046-last-stone-weight) |
 | [1331-rank-transform-of-an-array](https://github.com/48vineet/Problem-Solving/tree/master/1331-rank-transform-of-an-array) |
@@ -348,6 +349,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0104-maximum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0112-path-sum) |
+| [0994-rotting-oranges](https://github.com/48vineet/Problem-Solving/tree/master/0994-rotting-oranges) |
 ## Geometry
 |  |
 | ------- |
@@ -380,4 +382,8 @@ This repository is a personal collection of problem-solving exercises using Java
 |  |
 | ------- |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/48vineet/Problem-Solving/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+## Matrix
+|  |
+| ------- |
+| [0994-rotting-oranges](https://github.com/48vineet/Problem-Solving/tree/master/0994-rotting-oranges) |
 <!---LeetCode Topics End-->
