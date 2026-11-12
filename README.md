@@ -59,6 +59,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [2553-separate-the-digits-in-an-array](https://github.com/48vineet/Problem-Solving/tree/master/2553-separate-the-digits-in-an-array) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/48vineet/Problem-Solving/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/48vineet/Problem-Solving/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/48vineet/Problem-Solving/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/48vineet/Problem-Solving/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3731-find-missing-elements](https://github.com/48vineet/Problem-Solving/tree/master/3731-find-missing-elements) |
 ## Backtracking
