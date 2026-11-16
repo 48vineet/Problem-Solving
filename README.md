@@ -322,6 +322,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/48vineet/Problem-Solving/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/48vineet/Problem-Solving/tree/master/0543-diameter-of-binary-tree) |
 | [0733-flood-fill](https://github.com/48vineet/Problem-Solving/tree/master/0733-flood-fill) |
+| [1971-find-if-path-exists-in-graph](https://github.com/48vineet/Problem-Solving/tree/master/1971-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
 | ------- |
@@ -355,6 +356,7 @@ This repository is a personal collection of problem-solving exercises using Java
 | [0112-path-sum](https://github.com/48vineet/Problem-Solving/tree/master/0112-path-sum) |
 | [0733-flood-fill](https://github.com/48vineet/Problem-Solving/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/48vineet/Problem-Solving/tree/master/0994-rotting-oranges) |
+| [1971-find-if-path-exists-in-graph](https://github.com/48vineet/Problem-Solving/tree/master/1971-find-if-path-exists-in-graph) |
 ## Geometry
 |  |
 | ------- |
@@ -392,4 +394,12 @@ This repository is a personal collection of problem-solving exercises using Java
 | ------- |
 | [0733-flood-fill](https://github.com/48vineet/Problem-Solving/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/48vineet/Problem-Solving/tree/master/0994-rotting-oranges) |
+## Union-Find
+|  |
+| ------- |
+| [1971-find-if-path-exists-in-graph](https://github.com/48vineet/Problem-Solving/tree/master/1971-find-if-path-exists-in-graph) |
+## Graph Theory
+|  |
+| ------- |
+| [1971-find-if-path-exists-in-graph](https://github.com/48vineet/Problem-Solving/tree/master/1971-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
